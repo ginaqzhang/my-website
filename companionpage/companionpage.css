@@ -1,0 +1,49 @@
+body {
+	text-align: center;
+	margin: 0 15% 0 15%;
+	font-family: 'Source Sans Pro', sans-serif;
+	font-weight: 200;
+	background-color: black;
+}
+
+h1 {
+	color: white;
+	font-weight: 200;
+	font-size: 4em;
+	padding: 2% 0 2% 0;
+	margin-top: 0;
+}
+
+p {
+	color: white;
+	text-align: center;
+	font-size: 1.2em;
+	margin: 0 5% 5% 5%;
+}
+.website {
+	text-decoration: none;
+	color: #2196f3;
+}
+.one {
+	width: 90.3%;
+}
+.two, .three {
+	width: 45%;
+}
+.screen {
+	width: 22.33%;
+}
+
+#bottomlinks {
+	margin-top: 5%;
+	text-align: center;
+}
+
+#bottomlinks a {
+	font-size: 1.2em;
+	text-decoration: none;
+	color: white;
+	display: inline-block;
+	padding: 2%;
+	margin: 0 5% 0 5%;
+}
