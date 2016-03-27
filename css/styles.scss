@@ -10,8 +10,9 @@ body {
 	font-family: 'Source Sans Pro', sans-serif;
 	font-weight: 200;
 	position: relative;
-	background-color: #2196f3;
+	background-color: #283593;
 	overflow-x: hidden;
+	font-size: 85%;
 }
 
 .bigboxes {
@@ -109,11 +110,11 @@ body {
 	width: 100%;
 	height: 100%;
 	overflow: hidden;
-	background-color: #2196f3;
+	background-color: #283593;
 	position: relative;
 
-	$box-height: 125px;
-	$box-width: 125px;
+	$box-height: 96px;
+	$box-width: 96px;
 	$box-margin: 5px;
 
 	.fish-row {
@@ -339,10 +340,6 @@ a {
 
 /* = Contact form & footer
 ------------------------------------------------------------------------------*/
-
-#contact {
-	background-color: #2196f3;
-}
 
 .footer-wrapper {
 	padding: 80px;

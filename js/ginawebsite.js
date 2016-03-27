@@ -4,8 +4,8 @@
 
 var FishBoxes = (function() {
 	var myData = {};
-	var boxHeight = 125;
-	var boxWidth = 125;
+	var boxHeight = 96;
+	var boxWidth = 96;
 	var resizeTimeout;
 	var animationDuration = 2500;
 
