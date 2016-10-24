@@ -2,12 +2,256 @@
  * styles.scss
  */
 
+$off-white: #f4f4f4;
+$grey: #b7b7b7;
+$black: #231f20;
+$cyan: #1178b3;
+$blue: #206efb;
+$dark-blue: #0b2caa;
+$navy-blue: #021354;
+$red: #fc6367;
+$orange: #fd9c28;
+
+html, body {
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	background-color: $off-white;
+	font-family: 'Roboto', sans-serif;
+}
+
 .center-box {
 	position: absolute;
 	top: 50%;
+	transform: translateY(-50%);
+	width: 100%;
+	min-width: 600px;
+	text-align: center;
+}
+
+.name-wrapper {
+	height: 200px;
+	width: 540px;
+	position: relative;
+	margin: 0 auto;
+}
+
+.name {
+	position: absolute;
+	top: 0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	background-size: contain;
+	background-repeat: no-repeat;
+	background-position: center;
+
+	&--bw {
+		background-image: url('../assets/name-bw.png');
+	}
+
+	&--color {
+		background-image: url('../assets/name.png');
+		opacity: 0;
+		transition: 0.8s ease opacity;
+	}
+}
+
+.name-wrapper:hover > .name--color {
+	opacity: 1;
+}
+
+.tagline {
+	font-size: 1.6em;
+	margin: 20px 0;
+	padding: 0;
+}
+
+.tagline__span {
+	transition: 0.4s ease color;
+
+	&.red:hover {
+		color: $red;
+	}
+
+	&.orange:hover {
+		color: $orange;
+	}
+
+	a, a:hover, a.active, a:visited {
+		text-decoration: none;
+		color: inherit;
+	}
+}
+
+.button {
+	display: inline-block;
+	vertical-align: bottom;
+	height: 90px;
+	width: 90px;
+	border-radius: 100%;
+	margin: 15px 23px;
+	line-height: 90px;
+	font-size: 1.2em;
+	text-decoration: none;
+	color: $off-white;
+	background-position: center;
+	background-size: contain;
+	background-repeat: no-repeat;
+	background-color: $grey;
+	transition: 0.4s ease background-color;
+
+	&--cyan:hover {
+		background-color: $cyan;
+	}
+
+	&--blue:hover {
+		background-color: $blue;
+	}
+
+	&--dark-blue:hover {
+		background-color: $dark-blue;
+	}
+
+	&--navy:hover {
+		background-color: $navy-blue;
+	}
+
+	&--linkedin {
+		background-image: url('../assets/linkedin.png');
+		background-size: 50%;
+	}
+
+	&--behance {
+		font-size: 2.8em;
+		font-weight: 900;
+	}
+}
+
+/*= Contact page -------------------------------------------------------------*/
+
+#contact-heading {
+	font-size: 3em;
+	display: inline-block;
+}
+
+$contact-box-height: 472px;
+
+#contact-form {
+	width: 100%;
+	height: $contact-box-height;
+	max-width: 480px;
+	margin: 20px auto;
+
+	.input-heading {
+		display: block;
+		text-align: left;
+		margin: 5px 0 10px;
+		font-size: 1.2em;
+	}
+
+	.input-heading.required:after {
+		content: '*';
+		display: inline-block;
+		margin-left: 5px;
+	}
+
+	$input-height: 34px;
+
+	input, textarea {
+		background-color: transparent;
+		width: 100%;
+		margin: 0 0 20px;
+		padding: 0 10px;
+		font-size: 0.9em;
+		border: 1px solid $grey;
+		border-radius: 2px;
+		box-sizing: border-box;
+		font-weight: 200;
+		transition: 0.4s ease border;
+	}
+
+	input {
+		display: block;
+		height: $input-height;
+
+		&.invalid {
+			border: 1px solid $red;
+		}
+	}
+
+	textarea {
+		height: 4 * $input-height;
+		padding: 10px 10px;
+		resize: vertical;
+	}
+
+	input:focus, textarea:focus, button:focus {
+		outline: none;
+	}
+
+	::-webkit-input-placeholder {
+		color: $grey;
+		font-style: italic;
+		font-weight: 200;
+	}
+	::-moz-placeholder {
+		color: $grey;
+		font-style: italic;
+		font-weight: 200;
+	}
+	:-ms-input-placeholder {
+		color: $grey;
+		font-style: italic;
+		font-weight: 200;
+	}
+	:-moz-placeholder {
+		color: $grey;
+		font-style: italic;
+		font-weight: 200;
+	}
+
+	button {
+		margin: 15px 0 0;
+		padding: 0;
+		background-color: $blue;
+		color: $off-white;
+		border: 1px solid $blue;
+		outline: none;
+		cursor: pointer;
+		transition: 1s ease all;
+
+		&.disabled {
+			background-color: transparent;
+			border: 1px solid $grey;
+			color: $grey;
+			cursor: not-allowed;
+		}
+	}
+}
+
+.confirmation-box {
+	margin: 20px auto;
+	height: $contact-box-height;
+	position: relative;
+	box-sizing: border-box;
+
+	&__button {
+		position: absolute;
+		bottom: 0;
+		left: 50%;
+		transform: translateX(-50%);
+		margin: 0;
+	}
+}
+
+.confirmation {
+	font-size: 1.2em;
+	color: $black;
+	position: absolute;
+	top: 40%;
 	left: 50%;
 	transform: translate(-50%, -50%);
-	height: 400px;
-	width: 800px;
-	background-color: red;
 }
