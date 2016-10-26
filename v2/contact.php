@@ -18,6 +18,8 @@ if (isset($_POST['name'], $_POST['email'], $_POST['msg'])) {
 	<title>Gina Zhang | Contact</title>
 	<link rel="stylesheet" type="text/css" href="css/styles.css"/>
 	<link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Roboto">
+	<link rel='shortcut icon' href='favicon.ico' type='image/x-icon'/ >
+	<meta name="viewport" content="width=device-width, initial-scale=1">
 </head>
 <body>
 	<div class="center-box">

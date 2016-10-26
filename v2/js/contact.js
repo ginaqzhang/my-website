@@ -4,8 +4,12 @@ var ContactForm = (function() {
   var _updateStatus = function(validationStatus) {
     if (myForm.isValid != validationStatus) {
       var submitButton = myForm.target.find('.button').first();
+      submitButton.addClass('animating');
       submitButton.toggleClass('disabled');
       submitButton.prop('disabled', !validationStatus);
+      setTimeout(function() {
+        submitButton.removeClass('animating');
+      }, 1000);
       myForm.isValid = validationStatus;
     }
   };

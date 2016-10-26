@@ -24,6 +24,8 @@ $result = $possible_results[$_SESSION['contact_request_status']];
 	<title>Gina Zhang | <?= $title ?></title>
 	<link rel="stylesheet" type="text/css" href="css/styles.css"/>
 	<link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Roboto">
+	<link rel='shortcut icon' href='favicon.ico' type='image/x-icon'/ >
+	<meta name="viewport" content="width=device-width, initial-scale=1">
 </head>
 <body>
 	<div class="center-box">
@@ -32,7 +34,7 @@ $result = $possible_results[$_SESSION['contact_request_status']];
 			<div class="confirmation">
 				<?= $result ?>
 			</div>
-			<a class="button button--cyan confirmation-box__button" href="index">Home</a>
+			<a class="button button--coral confirmation-box__button" href="index">Home</a>
 		</div>
 	</div>
 </body>
