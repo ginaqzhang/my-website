@@ -201,6 +201,10 @@ body {
 	background-position: center;
 	background-repeat: no-repeat;
 	background-image: url('../assets/down.png');
+
+	&--clickable {
+		cursor: pointer;
+	}
 }
 
 .bounce {

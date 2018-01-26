@@ -8,7 +8,7 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 </head>
 <body>
-	<div class="wrapper">
+	<div id="first-page" class="wrapper">
 		<div class="center-box">
 			<div class="name-wrapper">
 				<div class="name name--bw"></div>
@@ -26,9 +26,9 @@
 				</div>
 			</nav>
 		</div>
-		<div class="arrow bounce"></div>
+		<div id="down-arrow" class="arrow arrow--clickable bounce"></div>
 	</div>
-	<div class="wrapper wrapper--white">
+	<div id="second-page" class="wrapper wrapper--white">
 		<div class="center-box">
 			<div class="bio-wrapper">
 				<div class="left-col">
@@ -43,15 +43,20 @@
 						I'm a student at the <a class="text-link text-link--orange" href="https://risd.edu" target="_blank">Rhode Island School of Design</a>, studying Industrial Design. In school, I've taken courses on design principles, woodworking, metalworking, web design and more.
 						</p>
 						<p>
-						I also work as a designer at <a class="text-link text-link--cyan" href="http://querymall.com" target="_blank">QueryMall</a>, a startup where I lead design efforts for a personal shopping app. My duties there have included creating wireframes for the entire app flow as well as creating high quality graphics.
-						</p>
-						<p>
-						I'm currently looking for summer 2017 internship positions, so if you think I'd be a good fit, or if you'd just like to chat, don't hesitate to <a class="text-link" href="contact">reach out</a>!
+						I'm currently looking for summer 2018 internship positions, so if you think I'd be a good fit, or if you'd just like to chat, don't hesitate to <a class="text-link" href="contact">reach out</a>!
 						</p>
 					</div>
 				</div>
 			</div>
 		</div>
 	</div>
+	<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
+	<script type="text/javascript">
+	$('#down-arrow').on('click', function() {
+		$('html, body').animate({
+			scrollTop: $('#first-page').innerHeight()
+		}, 600);
+	});
+</script>
 </body>
 </html>
