@@ -16,5 +16,17 @@ body {
 #target {
 	margin: 0 auto;
 	max-width: 1200px;
-	padding: 0 100px 40px;
+	padding: 0 30px 30px;
+}
+
+@media screen and (min-width: $breakpoint-md) {
+	#target {
+		padding: 0 60px 60px;
+	}
+}
+
+@media screen and (min-width: $breakpoint-lg) {
+	#target {
+		padding: 0 100px 100px;
+	}
 }

@@ -1,25 +1,31 @@
+$header-height: 200px;
+
 .header {
-	$header-height: 200px;
 	height: $header-height;
-	display: flex;
+	position: relative;
+	text-align: center;
 
 	&__title {
-		font-size: 36px;
 		line-height: $header-height;
+		font-size: 36px;
 		margin: 0;
+		white-space: nowrap;
+		text-overflow: ellipsis;
+		overflow: hidden;
 	}
 
 	&__nav {
-		text-align: right;
-		flex: 1 1 0;
+		position: absolute;
+		bottom: 20px;
+		width: 100%;
 	}
 
 	.nav-link {
-		line-height: $header-height;
 		color: $black;
 		opacity: 0.5;
-		margin-left: 30px;
+		font-size: 13px;
 		text-decoration: none;
+		margin: 10px;
 		transition: 0.5s ease-out opacity;
 
 		&:hover {
@@ -29,5 +35,31 @@
 		&--active {
 			opacity: 1;
 		}
+	}
+}
+
+@media screen and (min-width: $breakpoint-sm) {
+	.header {
+		display: flex;
+
+		&__nav {
+			text-align: right;
+			flex: 1 1 0;
+			position: unset;
+			bottom: unset;
+			width: unset;
+		}
+
+		.nav-link {
+			line-height: $header-height;
+			margin-left: 20px;
+		}
+	}
+}
+
+@media screen and (min-width: $breakpoint-md) {
+	.header .nav-link {
+		font-size: 16px;
+		margin-left: 30px;
 	}
 }

@@ -1,0 +1,11 @@
+.work-page {
+	display: grid;
+	grid-template-columns: repeat(2, 1fr);
+	grid-gap: 3vw;
+}
+
+@media screen and (min-width: $breakpoint-lg) {
+	.work-page {
+		grid-template-columns: repeat(3, 1fr);
+	}
+}

@@ -1,0 +1,9 @@
+.grid-pane {
+	background-color: #ededed;
+
+	&:before {
+		content: '';
+		display: block;
+		padding-bottom: 100%;
+	}
+}
