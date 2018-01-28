@@ -1,0 +1,33 @@
+.header {
+	$header-height: 200px;
+	height: $header-height;
+	display: flex;
+
+	&__title {
+		font-size: 36px;
+		line-height: $header-height;
+		margin: 0;
+	}
+
+	&__nav {
+		text-align: right;
+		flex: 1 1 0;
+	}
+
+	.nav-link {
+		line-height: $header-height;
+		color: $black;
+		opacity: 0.5;
+		margin-left: 30px;
+		text-decoration: none;
+		transition: 0.5s ease-out opacity;
+
+		&:hover {
+			opacity: 1;
+		}
+
+		&--active {
+			opacity: 1;
+		}
+	}
+}
