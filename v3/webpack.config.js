@@ -4,7 +4,12 @@ const ExtractTextPlugin = require('extract-text-webpack-plugin');
 
 const outputFolder = path.resolve(__dirname, 'public');
 const isDevMode = process.env.NODE_ENV !== 'production';
-const extractSass = new ExtractTextPlugin({ filename: 'styles.css' });
+
+const extractSass = new ExtractTextPlugin({
+  filename: 'styles.css',
+  disable: isDevMode
+});
+
 const plugins = [ extractSass ];
 
 module.exports = {
@@ -25,7 +30,8 @@ module.exports = {
         use: [
           { loader: 'css-loader' },
           { loader: 'sass-loader', options: { outputStyle: 'compressed'} }
-        ]
+        ],
+        fallback: 'style-loader'
       })
     }, {
       test: /\.(jpe?g|png|gif|svg)$/,
