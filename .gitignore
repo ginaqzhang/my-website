@@ -6,3 +6,4 @@ styles.css
 *~
 *.psd
 node_modules/
+.vscode/
