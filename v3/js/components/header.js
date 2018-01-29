@@ -4,20 +4,22 @@ import { Link } from 'react-router-dom'
 
 const Header = (props) => (
   <div className="header">
-    <h1 className="header__title">Gina Zhang</h1>
+    <h1 className="header__title">
+      <Link to="/" className="title-link">Gina Zhang</Link>
+    </h1>
     <nav className="header__nav">
       <Link
+        to="/"
         className={classNames('nav-link', {
           'nav-link--active': props.location.pathname.match(/^\/(work.*)?\/?$/i)
-        })}
-        to="/">
+        })}>
         Work
       </Link>
       <Link
+        to="/about"
         className={classNames('nav-link', {
           'nav-link--active': props.location.pathname.match(/^\/about\/?$/i)
-        })}
-        to="/about">
+        })}>
         About
       </Link>
       <a className="nav-link" href="/resume.pdf">Resume</a>
