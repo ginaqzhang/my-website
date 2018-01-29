@@ -8,7 +8,7 @@ const Header = (props) => (
     <nav className="header__nav">
       <Link
         className={classNames('nav-link', {
-          'nav-link--active': props.location.pathname === '/'
+          'nav-link--active': props.location.pathname.match(/^\/(work.*)?\/?$/i)
         })}
         to="/">
         Work

@@ -1,9 +1,71 @@
 .grid-pane {
-	background-color: #ededed;
-
-	&:before {
-		content: '';
-		display: block;
+	&__img {
 		padding-bottom: 100%;
+		background-color: #ededed;
+		background-repeat: no-repeat;
+		background-position: center;
+		background-size: cover;
+	}
+
+	&__info-box {
+		padding-top: 5px;
+		box-sizing: border-box;
+		background-color: $white;
+		text-align: center;
+		color: $grey;
+
+		h3 {
+			font-size: 12px;
+			font-weight: 400;
+			margin: 0;
+		}
+
+		p {
+			display: none;
+		}
+	}
+}
+
+@media screen and (min-width: $breakpoint-md) {
+	.grid-pane {
+		position: relative;
+
+		&__info-box {
+			position: absolute;
+			top: 0;
+			bottom: 0;
+			left: 0;
+			right: 0;
+			padding: 20px;
+			text-align: left;
+			background-color: rgba($black, 0.8);
+			color: $white;
+			opacity: 0;
+			overflow: auto;
+			transition: 0.5s ease opacity;
+
+			&:hover {
+				opacity: 1;
+			}
+
+			h3 {
+				font-size: 16px;
+			}
+
+			p {
+				display: block;
+				font-size: 13px;
+				margin-top: 16px;
+
+				&:after {
+					content: '';
+					display: block;
+					margin-top: 16px;
+					height: 2px;
+					width: 10px;
+					background-color: $white;
+				}
+			}
+		}
 	}
 }

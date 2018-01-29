@@ -1,11 +1,13 @@
 import React from 'react'
 import GridPane from './grid-pane.js'
+import SiteDataProvider from '../data-provider.js'
 
 const WorkPage = () => {
-  let gridComponents = []
-  for (let i = 0; i < 12; ++i) {
-    gridComponents.push(<GridPane id={i} />)
-  }
+  let workItems = SiteDataProvider.getDataItem('workItems')
+
+  let gridComponents = workItems.map(item =>
+    <GridPane key={item['slug']} {...item} />
+  )
 
   return (
     <div className="work-page">
