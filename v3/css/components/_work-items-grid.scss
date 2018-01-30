@@ -1,12 +1,12 @@
-.work-page {
+.work-items-grid {
 	display: grid;
 	grid-template-columns: 1fr;
-	grid-gap: 20px;
+	grid-gap: $grid-gap-sm;
 }
 
 @media screen and (min-width: $breakpoint) {
-	.work-page {
+	.work-items-grid {
 		grid-template-columns: repeat(2, 1fr);
-		grid-gap: 3vw;
+		grid-gap: $grid-gap;
 	}
 }

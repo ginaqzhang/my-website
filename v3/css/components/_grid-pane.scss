@@ -2,7 +2,7 @@
 	text-decoration: none;
 
 	&__img {
-		padding-bottom: 75%;
+		padding-bottom: $img-height-ratio;
 		background-color: #ededed;
 		background-repeat: no-repeat;
 		background-position: center;

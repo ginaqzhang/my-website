@@ -1,0 +1,13 @@
+.separator {
+	width: 36px;
+	height: 3px;
+	background-color: $grey;
+	margin: 30px auto;
+}
+
+@media screen and (min-width: $breakpoint) {
+	.separator {
+		width: 6vw;
+		margin: 60px auto;
+	}
+}

@@ -6,7 +6,7 @@ class DataProvider {
     return sitedata
   }
 
-  static getDataItem (key) {
+  static getDataNode (key) {
     return sitedata[key]
   }
 

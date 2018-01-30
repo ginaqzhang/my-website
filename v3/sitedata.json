@@ -3,86 +3,138 @@
     {
       "title": "Title goes here",
       "slug": "slug-goes-here-1",
-      "image": "test.png",
-      "short-description": "description goes here",
-      "full-description": "description goes here"
+      "blurb": "A short description goes here",
+      "details": [
+        {
+          "image": "test.png",
+          "caption": "The caption for the first image should be the main description. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+        },
+        {
+          "image": "test.png",
+          "caption": "Optional captions can go here."
+        }
+      ]
     },
     {
       "title": "Title goes here",
       "slug": "slug-goes-here-2",
-      "image": "test.png",
-      "short-description": "description goes here",
-      "full-description": "description goes here"
+      "blurb": "A short description goes here",
+      "details": [
+        {
+          "image": "test.png",
+          "caption": "Description goes here"
+        }
+      ]
     },
     {
       "title": "Title goes here",
       "slug": "slug-goes-here-3",
-      "image": "test.png",
-      "short-description": "description goes here",
-      "full-description": "description goes here"
+      "blurb": "A short description goes here",
+      "details": [
+        {
+          "image": "test.png",
+          "caption": "Description goes here"
+        }
+      ]
     },
     {
       "title": "Title goes here",
       "slug": "slug-goes-here-4",
-      "image": "test.png",
-      "short-description": "description goes here",
-      "full-description": "description goes here"
+      "blurb": "A short description goes here",
+      "details": [
+        {
+          "image": "test.png",
+          "caption": "Description goes here"
+        }
+      ]
     },
     {
       "title": "Title goes here",
       "slug": "slug-goes-here-5",
-      "image": "test.png",
-      "short-description": "description goes here",
-      "full-description": "description goes here"
+      "blurb": "A short description goes here",
+      "details": [
+        {
+          "image": "test.png",
+          "caption": "Description goes here"
+        }
+      ]
     },
     {
       "title": "Title goes here",
       "slug": "slug-goes-here-6",
-      "image": "test.png",
-      "short-description": "description goes here",
-      "full-description": "description goes here"
+      "blurb": "A short description goes here",
+      "details": [
+        {
+          "image": "test.png",
+          "caption": "Description goes here"
+        }
+      ]
     },
     {
       "title": "Title goes here",
       "slug": "slug-goes-here-7",
-      "image": "test.png",
-      "short-description": "description goes here",
-      "full-description": "description goes here"
+      "blurb": "A short description goes here",
+      "details": [
+        {
+          "image": "test.png",
+          "caption": "Description goes here"
+        }
+      ]
     },
     {
       "title": "Title goes here",
       "slug": "slug-goes-here-8",
-      "image": "test.png",
-      "short-description": "description goes here",
-      "full-description": "description goes here"
+      "blurb": "A short description goes here",
+      "details": [
+        {
+          "image": "test.png",
+          "caption": "Description goes here"
+        }
+      ]
     },
     {
       "title": "Title goes here",
       "slug": "slug-goes-here-9",
-      "image": "test.png",
-      "short-description": "description goes here",
-      "full-description": "description goes here"
+      "blurb": "A short description goes here",
+      "details": [
+        {
+          "image": "test.png",
+          "caption": "Description goes here"
+        }
+      ]
     },
     {
       "title": "Title goes here",
       "slug": "slug-goes-here-10",
-      "image": "test.png",
-      "short-description": "description goes here",
-      "full-description": "description goes here"
+      "blurb": "A short description goes here",
+      "details": [
+        {
+          "image": "test.png",
+          "caption": "Description goes here"
+        }
+      ]
     },
     {
       "title": "Title goes here",
       "slug": "slug-goes-here-11",
-      "image": "test.png",
-      "short-description": "description goes here",
-      "full-description": "description goes here"
+      "blurb": "A short description goes here",
+      "details": [
+        {
+          "image": "test.png",
+          "caption": "Description goes here"
+        }
+      ]
     },
     {
       "title": "Title goes here",
       "slug": "slug-goes-here-12",
-      "image": "test.png",
-      "short-description": "description goes here",
-      "full-description": "description goes here"
+      "blurb": "A short description goes here",
+      "details": [
+        {
+          "image": "test.png",
+          "caption": "Description goes here"
+        }
+      ]
     }
   ]
 }

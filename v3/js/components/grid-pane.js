@@ -3,8 +3,10 @@ import SiteDataProvider from '../data-provider.js'
 import { Link } from 'react-router-dom'
 
 const GridPane = (props) => {
+  let image = props['details'][0]['image']
+
   let backgroundStyle = {
-    backgroundImage: `url('${SiteDataProvider.getAssetUrl(props['image'])}')`
+    backgroundImage: `url('${SiteDataProvider.getAssetUrl(image)}')`
   }
 
   return (
@@ -12,7 +14,7 @@ const GridPane = (props) => {
       <div className="grid-pane__img" style={backgroundStyle} />
       <div className="grid-pane__info-box">
         <h3>{props['title']}</h3>
-        <p>{props['short-description']}</p>
+        <p>{props['blurb']}</p>
       </div>
     </Link>
   )
