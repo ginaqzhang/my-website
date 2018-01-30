@@ -43,7 +43,7 @@ $header-height: 200px;
 	}
 }
 
-@media screen and (min-width: $breakpoint-sm) {
+@media screen and (min-width: $breakpoint) {
 	.header {
 		display: flex;
 
@@ -57,14 +57,8 @@ $header-height: 200px;
 
 		.nav-link {
 			line-height: $header-height;
-			margin-left: 20px;
+			font-size: 16px;
+			margin-left: 30px;
 		}
-	}
-}
-
-@media screen and (min-width: $breakpoint-md) {
-	.header .nav-link {
-		font-size: 16px;
-		margin-left: 30px;
 	}
 }
