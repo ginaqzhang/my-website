@@ -1,4 +1,5 @@
 import React from 'react'
+import InfoBox from './info-box.js'
 import SiteDataProvider from '../data-provider.js'
 
 const WorkItem = ({ slug }) => {
@@ -15,10 +16,7 @@ const WorkItem = ({ slug }) => {
 
   let components = [
     <div className="work-item__img" key="img0" style={primaryImageBg} />,
-    <div className="work-item__info-box" key="info0">
-      <h3>{item['title']}</h3>
-      <p>{description}</p>
-    </div>
+    <InfoBox title={item['title']} text={description} key="info0" />
   ]
 
   for (let i = 1; i < itemDetails.length; ++i) {
@@ -33,11 +31,7 @@ const WorkItem = ({ slug }) => {
     )
 
     if (caption) {
-      components.push(
-        <div className="work-item__info-box" key={`info${i}`}>
-          <p>{caption}</p>
-        </div>
-      )
+      components.push(<InfoBox text={caption} key={`info${i}`} />)
     }
   }
 

@@ -12,7 +12,7 @@ const GridPane = (props) => {
   return (
     <Link to={`/work/${props['slug']}`} className="grid-pane">
       <div className="grid-pane__img" style={backgroundStyle} />
-      <div className="grid-pane__info-box">
+      <div className="grid-pane__overlay">
         <h3>{props['title']}</h3>
         <p>{props['blurb']}</p>
       </div>

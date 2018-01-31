@@ -4,12 +4,11 @@
 	&__img {
 		padding-bottom: $img-height-ratio;
 		background-color: #ededed;
-		background-repeat: no-repeat;
 		background-position: center;
 		background-size: cover;
 	}
 
-	&__info-box {
+	&__overlay {
 		padding-top: 5px;
 		box-sizing: border-box;
 		background-color: $white;
@@ -32,7 +31,7 @@
 	.grid-pane {
 		position: relative;
 
-		&__info-box {
+		&__overlay {
 			position: absolute;
 			top: 0;
 			bottom: 0;
