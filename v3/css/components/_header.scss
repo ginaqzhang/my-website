@@ -28,7 +28,7 @@ $header-height: 200px;
 	.nav-link {
 		color: $black;
 		opacity: 0.5;
-		font-size: 13px;
+		font-size: 16px;
 		text-decoration: none;
 		margin: 10px;
 		transition: 0.5s ease-out opacity;
@@ -57,7 +57,6 @@ $header-height: 200px;
 
 		.nav-link {
 			line-height: $header-height;
-			font-size: 16px;
 			margin-left: 30px;
 		}
 	}

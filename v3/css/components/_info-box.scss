@@ -3,12 +3,12 @@ $title-spacing: 14px;
 .info-box {
 	h3 {
 		margin: 0 0 $title-spacing;
-		font-size: 16px;
+		font-size: 20px;
 	}
 
 	p {
 		margin: 0;
-		font-size: 12px;
+		font-size: 13px;
 		line-height: 150%;
 	}
 }
@@ -20,12 +20,10 @@ $title-spacing: 14px;
 
 		h3 {
 			margin: -$header-adjustment 0 $title-spacing + $paragraph-adjustment;
-			font-size: 20px;
 		}
 
 		p {
 			margin-top: -$paragraph-adjustment;
-			font-size: 13px;
 		}
 	}
 }
