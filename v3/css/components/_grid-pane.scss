@@ -14,16 +14,18 @@
 		background-color: $white;
 		text-align: center;
 		color: $grey;
+	}
 
-		h3 {
-			font-size: 13px;
-			font-weight: 400;
-			margin: 0;
-		}
+	&__title {
+		@include md-container;
+		font-size: 13px;
+		font-weight: 400;
+		margin: 0;
+	}
 
-		p {
-			display: none;
-		}
+	&__blurb {
+		@include md-container;
+		display: none;
 	}
 }
 
@@ -48,23 +50,24 @@
 			&:hover {
 				opacity: 1;
 			}
+		}
 
-			h3 {
-				font-size: 16px;
-			}
+		&__title {
+			font-size: 16px;
+		}
 
-			p {
+		&__blurb {
+			display: block;
+			font-size: 13px;
+			margin-top: 16px;
+
+			&:after {
+				content: '';
 				display: block;
-				font-size: 13px;
-
-				&:after {
-					content: '';
-					display: block;
-					margin-top: 16px;
-					height: 2px;
-					width: 10px;
-					background-color: $white;
-				}
+				margin-top: 16px;
+				height: 2px;
+				width: 10px;
+				background-color: $white;
 			}
 		}
 	}

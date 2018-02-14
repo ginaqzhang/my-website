@@ -1,8 +1,25 @@
 import React from 'react'
+import SiteDataProvider from '../data-provider.js'
 
 const InfoBox = ({ title, text }) => {
-  let titleComponent = title ? <h3>{title}</h3> : null
-  let textComponent = text ? <p>{text}</p> : null
+  let titleComponent = null
+  let textComponent = null
+
+  if (title) {
+    titleComponent = (
+      <div
+        className="info-box__title"
+        dangerouslySetInnerHTML={SiteDataProvider.getMarkdown(title)} />
+    )
+  }
+
+  if (text) {
+    textComponent = (
+      <div
+        className="info-box__text"
+        dangerouslySetInnerHTML={SiteDataProvider.getMarkdown(text)} />
+    )
+  }
 
   return (
     <div className="info-box">

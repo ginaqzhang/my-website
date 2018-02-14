@@ -1,4 +1,7 @@
+import MarkdownIt from 'markdown-it'
 import sitedata from '../sitedata.json'
+
+const md = new MarkdownIt()
 const assetResolver = require.context('../assets', true)
 
 class DataProvider {
@@ -12,6 +15,10 @@ class DataProvider {
 
   static getAssetUrl (assetFilename) {
     return assetResolver(`./${assetFilename}`)
+  }
+
+  static getMarkdown (str) {
+    return { __html: md.render(str) }
   }
 }
 

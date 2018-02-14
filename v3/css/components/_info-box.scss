@@ -1,12 +1,15 @@
 $title-spacing: 14px;
 
 .info-box {
-	h3 {
+	&__title {
+		@include md-container;
 		margin: 0 0 $title-spacing;
 		font-size: 20px;
+		font-weight: 600;
 	}
 
-	p {
+	&__text {
+		@include md-container;
 		margin: 0;
 		font-size: 13px;
 		line-height: 150%;
@@ -18,11 +21,11 @@ $title-spacing: 14px;
 		$header-adjustment: 5px;
 		$paragraph-adjustment: 3px;
 
-		h3 {
+		&__title {
 			margin: -$header-adjustment 0 $title-spacing + $paragraph-adjustment;
 		}
 
-		p {
+		&__text {
 			margin-top: -$paragraph-adjustment;
 		}
 	}

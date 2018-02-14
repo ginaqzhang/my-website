@@ -13,8 +13,12 @@ const GridPane = (props) => {
     <Link to={`/work/${props['slug']}`} className="grid-pane">
       <div className="grid-pane__img" style={backgroundStyle} />
       <div className="grid-pane__overlay">
-        <h3>{props['title']}</h3>
-        <p>{props['blurb']}</p>
+        <div
+          className="grid-pane__title"
+          dangerouslySetInnerHTML={SiteDataProvider.getMarkdown(props['title'])} />
+        <div
+          className="grid-pane__blurb"
+          dangerouslySetInnerHTML={SiteDataProvider.getMarkdown(props['blurb'])} />
       </div>
     </Link>
   )
