@@ -34,7 +34,7 @@ module.exports = {
         fallback: 'style-loader'
       })
     }, {
-      test: /\.(jpe?g|png|gif|svg)$/,
+      test: /\.(jpe?g|png|gif|mp4|svg|eot|ttf)$/,
       use: [{
         loader: 'url-loader',
         options: { limit: 8192 }

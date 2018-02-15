@@ -35,6 +35,10 @@
         {
           "image": "test.png",
           "caption": "Optional captions can go here."
+        },
+        {
+          "video": "metals-video-1.mp4",
+          "caption": "Can also include mp4 videos."
         }
       ]
     },

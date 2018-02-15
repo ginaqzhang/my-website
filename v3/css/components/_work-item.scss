@@ -21,7 +21,7 @@
 		grid-template-columns: repeat(3, 1fr);
 		grid-gap: $grid-gap;
 
-		&__img {
+		&__img, &__video {
 			grid-column: 1 / 3;
 		}
 

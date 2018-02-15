@@ -1,0 +1,25 @@
+@import '~video.js/dist/video-js.min.css';
+
+.video {
+	width: 100%;
+	height: 100%;
+
+	&:before {
+		content: '';
+		display: block;
+		padding-bottom: 56.25%; // 16:9 aspect ratio
+	}
+
+	// Add specificity to ensure we override library styles
+	button.vjs-big-play-button {
+		$play-button-size: 80px;
+
+		height: $play-button-size;
+		width: $play-button-size;
+		line-height: $play-button-size;
+		border: none;
+		border-radius: 100%;
+		margin: 0;
+		transform: translate(-50%, -50%);
+	}
+}
