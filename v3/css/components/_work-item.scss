@@ -3,7 +3,7 @@
 	grid-template-columns: 1fr;
 	grid-gap: $grid-gap-sm;
 
-	&__img {
+	&__img, &__img-set {
 		background-color: #ededed;
 		background-position: center;
 		background-size: cover;
@@ -14,6 +14,16 @@
 			padding-bottom: $img-height-ratio;
 		}
 	}
+
+	&__img-set {
+		background-color: transparent;
+		position: relative;
+
+		& > div {
+			position: absolute;
+			top: 0;
+		}
+	}
 }
 
 @media screen and (min-width: $breakpoint) {
@@ -21,7 +31,7 @@
 		grid-template-columns: repeat(3, 1fr);
 		grid-gap: $grid-gap;
 
-		&__img, &__video {
+		&__img, &__img-set, &__video {
 			grid-column: 1 / 3;
 		}
 

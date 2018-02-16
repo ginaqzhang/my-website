@@ -1,52 +1,86 @@
 import React from 'react'
+import ImageSet from './image-set.js'
 import InfoBox from './info-box.js'
 import SiteDataProvider from '../data-provider.js'
 import Video from './video.js'
 
-const WorkItem = ({ slug }) => {
-  let item = SiteDataProvider.getDataNode('workItems').find(
-    x => x['slug'] == slug
-  )
+class WorkItem extends React.Component {
+  render () {
+    let item = SiteDataProvider.getDataNode('workItems').find(
+      x => x['slug'] == this.props['slug']
+    )
 
-  let itemDetails = item['details']
-  let { image: primaryImage, caption: description } = itemDetails[0]
+    let itemDetails = item['details']
+    let { image: primaryImage, caption: description } = itemDetails[0]
 
-  let primaryImageBg = {
-    backgroundImage: `url('${SiteDataProvider.getAssetUrl(primaryImage)}')`
-  }
+    let primaryImageBg = {
+      backgroundImage: `url('${SiteDataProvider.getAssetUrl(primaryImage)}')`
+    }
 
-  let components = [
-    <div className="work-item__img" key="img0" style={primaryImageBg} />,
-    <InfoBox title={item['title']} text={description} key="info0" />
-  ]
+    let components = [
+      <div className="work-item__img" key="img0" style={primaryImageBg} />,
+      <InfoBox title={item.title} text={description} key="info0" />
+    ]
 
-  for (let i = 1; i < itemDetails.length; ++i) {
-    let { image, video, caption } = itemDetails[i]
+    for (let i = 1; i < itemDetails.length; ++i) {
+      let entry = itemDetails[i]
 
-    if (image) {
-      let imageBg = {
-        backgroundImage: `url('${SiteDataProvider.getAssetUrl(image)}')`
+      if (entry['image']) {
+        components.push(this._createImageComponent(entry['image']))
+      } else if (entry['imageSet']) {
+        components.push(this._createImageSetComponent(entry['imageSet']))
+      } else if (entry['video']) {
+        components.push(this._createVideComponent(entry['video']))
       }
 
-      components.push(
-        <div className="work-item__img" key={`img${i}`} style={imageBg} />
-      )
-    } else if (video) {
-      let videoSrc = `/${SiteDataProvider.getAssetUrl(video)}`
-
-      components.push(
-        <div className="work-item__video" key={`video${i}`}>
-          <Video source={videoSrc} key={`video${i}`} />
-        </div>
-      )
+      if (entry['caption']) {
+        components.push(
+          <InfoBox text={entry['caption']} key={this._getKey()} />
+        )
+      }
     }
 
-    if (caption) {
-      components.push(<InfoBox text={caption} key={`info${i}`} />)
-    }
+    return <div className="work-item">{components}</div>
   }
 
-  return <div className="work-item">{components}</div>
+  _createImageComponent (image) {
+    let imageBg = {
+      backgroundImage: `url('${SiteDataProvider.getAssetUrl(image)}')`
+    }
+
+    return (
+      <div className="work-item__img" key={this._getKey()} style={imageBg} />
+    )
+  }
+
+  _createImageSetComponent (imageSet) {
+    return (
+      <div className="work-item__img-set" key={this._getKey()}>
+        <ImageSet
+          rows={imageSet['rows']}
+          cols={imageSet['cols']}
+          images={imageSet['images']} />
+      </div>
+    )
+  }
+
+  _createVideComponent (video) {
+    let videoSrc = `/${SiteDataProvider.getAssetUrl(video)}`
+
+    return (
+      <div className="work-item__video" key={this._getKey()}>
+        <Video source={videoSrc} />
+      </div>
+    )
+  }
+
+  _getKey () {
+    if (this._keyCounter === undefined) {
+      this._keyCounter = 0
+    }
+
+    return `dynamic${this._keyCounter++}`
+  }
 }
 
 export default WorkItem
