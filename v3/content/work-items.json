@@ -1,156 +1,313 @@
 [
   {
-    "title": "Title goes here",
-    "slug": "slug-goes-here-1",
-    "blurb": "A short description goes here",
+    "title": "Lively Living",
+    "slug": "lively-living",
+    "blurb": "Modern living room furniture collection",
     "details": [
       {
-        "image": "test.png",
-        "caption": "The caption for the first image should be the **main description**. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.\n\nUt enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+        "image": "lively-living-1.jpg",
+        "caption": "Lively Living is a living room furniture collection that is meant to reduce the likelihood of ruining important items from being knocked over and at the same time to add life into the inanimate objects we usually have in the living room. The two pieces were made with animal-like characteristics without adding literal animal features. I wanted to make a collection that had a unique modern design look, and was functional. Both the table and lamp were made from ash wood.​​​​​​​"
+      },
+      {
+        "image": "lively-living-2.jpg",
+        "caption": "**Table**\n\nThe table made for this collection has two layers in order to give objects set on the tables separation. More than once I have knocked a cup of water over on a table, and had to scramble to make sure that no electronics or books were going to get damaged. With this table, you can put more valuable objects on the top layer, and then keep your drinks and other less valuable items on the bottom layer without worrying about accidental spills if you knock your drink over."
       },
       {
         "imageSet": {
           "rows": 2,
           "cols": 2,
           "images": [
-            "test.png",
-            "test.png",
-            "test.png",
-            "test.png"
+            "lively-living-3.jpg",
+            "lively-living-4.jpg",
+            "lively-living-5.jpg",
+            "lively-living-6.jpg"
           ]
-        },
-        "caption": "Optional captions can go here. Now supporting dynamic image grids 👍"
+        }
+      },
+      {
+        "image": "lively-living-7.jpg",
+        "caption": "**Lamp**\n\nI originally wanted to design a lamp that would go on top of the table, but I realized that having a lamp on top of the table would make the collection look cluttered, and also increase the chance of knocking something over higher. A floor lamp is harder to knock over, and visually goes with the collection better."
+      },
+      {
+        "imageSet": {
+          "rows": 1,
+          "cols": 2,
+          "images": [
+            "lively-living-8.jpg",
+            "lively-living-9.jpg"
+          ]
+        }
+      },
+      {
+        "imageSet": {
+          "rows": 1,
+          "cols": 2,
+          "images": [
+            "lively-living-9.jpg",
+            "lively-living-10.jpg"
+          ]
+        }
+      },
+      {
+        "image": "lively-living-11.jpg"
+      }
+    ]
+  },
+  {
+    "title": "Metals Exploration",
+    "slug": "metals-exploration",
+    "blurb": "An exploratory project using aluminium and steel",
+    "details": [
+      {
+        "image": "metals-1.jpg",
+        "caption": "This piece was made as the final project of my Metals II class. For this project, I machined aluminum and steel on several machines, including a vertical milling machine and a lathe, in order to explore different techniques taught in the class, and to better understand the capabilities of the machines and the materials. Since I wasn’t constrained to making a functional item, I had a great deal of freedom to explore many different things, but I still ended up making a cohesive item."
+      },
+      {
+        "image": "metals-2.jpg",
+        "caption": "**Final**\n\nUsing many different techniques in this project helped me understand the importance of order of operations and tolerance in manufacturing. The press-fitted piece, which is the bottom piece, wasn’t initially planned, but I saw an opportunity to use press-fitting during the build process, and I thought it would be valuable to explore that technique as well."
+      },
+      {
+        "image": "metals-3.jpg"
+      },
+      {
+        "image": "metals-4.jpg"
+      },
+      {
+        "image": "metals-5.jpg"
+      },
+      {
+        "image": "metals-6.jpg"
       },
       {
         "video": "metals-video-1.mp4",
-        "caption": "Can also include mp4 videos."
-      }
-    ]
-  },
-  {
-    "title": "Title goes here",
-    "slug": "slug-goes-here-2",
-    "blurb": "A short description goes here",
-    "details": [
-      {
-        "image": "test.png",
-        "caption": "Description goes here"
+        "caption": "The cap on top also wasn’t included as part of my initial plans, but at the last minute I felt like the object wasn’t complete, so I decided to make that component. It ended up being one of the more interesting parts of this project -- as shown in the video, it’s flippable and makes a clinking sound."
       },
       {
-        "image": "test.png"
+        "video": "metals-video-2.mp4"
+      }
+    ]
+  },
+  {
+    "title": "Porsche Watering Can",
+    "slug": "porsche-watering-can",
+    "blurb": "Evoking a brand through design language",
+    "details": [
+      {
+        "image": "porsche-1.jpg",
+        "caption": "The watering can project was a branding exercise where we were challenged to convey an existing brand's design language through a watering can. I chose Porsche because I was interested in the way different curves flow smoothly into one another in their car designs. I enjoyed exploring how Porsche cars, both new and old, have their curved designs punctuated by the occasional sharp edge."
       },
       {
-        "image": "test.png"
+        "imageSet": {
+          "rows": 2,
+          "cols": 3,
+          "images": [
+            "porsche-2.jpg",
+            "porsche-3.jpg",
+            "porsche-4.jpg",
+            "porsche-5.jpg",
+            "porsche-6.jpg",
+            "porsche-7.jpg"
+          ]
+        }
+      },
+      {
+        "image": "porsche-8.jpg"
       }
     ]
   },
   {
-    "title": "Title goes here",
-    "slug": "slug-goes-here-3",
-    "blurb": "A short description goes here",
+    "title": "Forms Study",
+    "slug": "form-study",
+    "blurb": "Conveying words through forms",
     "details": [
       {
-        "image": "test.png",
-        "caption": "Description goes here"
+        "image": "forms-1.jpg",
+        "caption": "This project was an exercise to understand form language. We had to make 3 different forms of different sizes in order to convey two words that we had to work off of for the form family. The two words I worked with were \"calm\" and \"cascade.\""
+      },
+      {
+        "imageSet": {
+          "rows": 2,
+          "cols": 3,
+          "images": [
+            "forms-2.jpg",
+            "forms-3.jpg",
+            "forms-4.jpg",
+            "forms-5.jpg",
+            "forms-6.jpg",
+            "forms-7.jpg"
+          ]
+        }
+      },
+      {
+        "image": "forms-8.jpg"
+      },
+      {
+        "imageSet": {
+          "rows": 2,
+          "cols": 3,
+          "images": [
+            "forms-9.jpg",
+            "forms-10.jpg",
+            "forms-11.jpg",
+            "forms-12.jpg",
+            "forms-13.jpg",
+            "forms-15.jpg"
+          ]
+        }
+      },
+      {
+        "image": "forms-16.jpg"
+      },
+      {
+        "imageSet": {
+          "rows": 2,
+          "cols": 3,
+          "images": [
+            "forms-17.jpg",
+            "forms-18.jpg",
+            "forms-19.jpg",
+            "forms-20.jpg",
+            "forms-21.jpg",
+            "forms-22.jpg"
+          ]
+        }
+      },
+      {
+        "image": "forms-23.jpg"
+      },
+      {
+        "image": "forms-24.jpg"
+      },
+      {
+        "image": "forms-25.jpg"
       }
     ]
   },
   {
-    "title": "Title goes here",
-    "slug": "slug-goes-here-4",
-    "blurb": "A short description goes here",
+    "title": "How Do You Do Your Poo?",
+    "slug": "ergonomic-toilet",
+    "blurb": "A more ergonomic toilet",
     "details": [
       {
-        "image": "test.png",
-        "caption": "Description goes here"
+        "image": "toilet-1.png",
+        "caption": "In many countries besides America, many people rely on squatting to facilitate elimination. Although many Americans realize that squatting is healthier, most of them don’t incorporate it into their daily routines. In response to this issue, I designed an ergonomic toilet that introduces the concept of squatting on the toilet in a familiar form."
+      },
+      {
+        "imageSet": {
+          "rows": 1,
+          "cols": 2,
+          "images": [
+            "toilet-2.png",
+            "toilet-3.png"
+          ]
+        },
+        "caption": "**User Testing**"
+      },
+      {
+        "imageSet": {
+          "rows": 1,
+          "cols": 2,
+          "images": [
+            "toilet-4.png",
+            "toilet-5.png"
+          ]
+        },
+        "caption": "**Final Model**"
+      },
+      {
+        "image": "toilet-6.jpg"
       }
     ]
   },
   {
-    "title": "Title goes here",
-    "slug": "slug-goes-here-5",
-    "blurb": "A short description goes here",
+    "title": "Four Hour Children's Ride-On Challenge",
+    "slug": "ride-on-challenge",
+    "blurb": "A timed design challenge",
     "details": [
       {
-        "image": "test.png",
-        "caption": "Description goes here"
+        "image": "ride-on-1.jpg",
+        "caption": "The goal of the Four Hour Children’s Ride-On Design Challenge was to design a ride-on toy that would either rock or roll in the given time. We worked in randomly assigned groups of three or four, and we had four hours to conceive ideas and also build a working prototype."
+      },
+      {
+        "image": "ride-on-2.jpg",
+        "caption": "**User Testing**\n\nAfter four hours, we had a fully functioning ride-on to test with the kids. Almost immediately, we uncovered some major design flaws. What was originally intended to be the footrest part for the rocking position looked like a handle, so some kids started sitting in the car the wrong way, as they assumed the handles were for the person sitting in the car to hold on to"
+      },
+      {
+        "image": "ride-on-3.gif",
+        "caption": "Some parents also had the same misconception, and used the footrest as a handle to push their kids. This is a very uncomfortable position for the parent, although it is a good height for kids to push other kids around in. Another problem with the ride-on was that there was no safe place for the kids to rest their hands and feet. In the first video clip, you can see that the child’s feet are just running on the ground, and are also dangerously close to the wheel."
+      },
+      {
+        "image": "ride-on-4.gif",
+        "caption": "In the second video clip, the child sitting on the ride is seen struggling to find a place to put his hands. He first places his hands on the back wheel, but that is unsafe, and is directed to put his hands at the front of the car. That is uncomfortable for him, though, and he continues to struggle to find a place to rest his hands."
       }
     ]
   },
   {
-    "title": "Title goes here",
-    "slug": "slug-goes-here-6",
-    "blurb": "A short description goes here",
+    "title": "Dog Carrier for Bikes",
+    "slug": "dog-carrier",
+    "blurb": "Investigating creative ways to carry dogs",
     "details": [
       {
-        "image": "test.png",
-        "caption": "Description goes here"
+        "image": "dog-carrier-1.jpg",
+        "caption": "This is a project that investigated creative ways to carry dogs. Through market research, I discovered that there were very few dog carriers that allowed people to conveniently carry both on and off a bike. This backpack design is meant to be comfortable for both the dog and the human, and also be very versatile for travel."
+      },
+      {
+        "imageSet": {
+          "rows": 2,
+          "cols": 2,
+          "images": [
+            "dog-carrier-2.png",
+            "dog-carrier-3.png",
+            "dog-carrier-4.png",
+            "dog-carrier-5.png"
+          ]
+        }
       }
     ]
   },
   {
-    "title": "Title goes here",
-    "slug": "slug-goes-here-7",
-    "blurb": "A short description goes here",
+    "title": "Modern Violin",
+    "slug": "modern-violin",
+    "blurb": "The violin reimagined with a modern twist",
     "details": [
       {
-        "image": "test.png",
-        "caption": "Description goes here"
-      }
-    ]
-  },
-  {
-    "title": "Title goes here",
-    "slug": "slug-goes-here-8",
-    "blurb": "A short description goes here",
-    "details": [
+        "image": "modern-violin-1.png",
+        "caption": "This is a fully functioning violin that is made to have a more modern style. The violin is asymmetrical to make it more comfortable for the player’s hand when going up to higher positions. The traditional scroll has been turned into a hook for easy carrying with one finger."
+      },
       {
-        "image": "test.png",
-        "caption": "Description goes here"
-      }
-    ]
-  },
-  {
-    "title": "Title goes here",
-    "slug": "slug-goes-here-9",
-    "blurb": "A short description goes here",
-    "details": [
+        "imageSet": {
+          "rows": 1,
+          "cols": 2,
+          "images": [
+            "modern-violin-2.jpg",
+            "modern-violin-3.jpg"
+          ]
+        }
+      },
       {
-        "image": "test.png",
-        "caption": "Description goes here"
-      }
-    ]
-  },
-  {
-    "title": "Title goes here",
-    "slug": "slug-goes-here-10",
-    "blurb": "A short description goes here",
-    "details": [
+        "imageSet": {
+          "rows": 2,
+          "cols": 2,
+          "images": [
+            "modern-violin-4.jpg",
+            "modern-violin-5.jpg",
+            "modern-violin-6.jpg",
+            "modern-violin-7.jpg"
+          ]
+        }
+      },
       {
-        "image": "test.png",
-        "caption": "Description goes here"
-      }
-    ]
-  },
-  {
-    "title": "Title goes here",
-    "slug": "slug-goes-here-11",
-    "blurb": "A short description goes here",
-    "details": [
+        "imageSet": {
+          "rows": 1,
+          "cols": 2,
+          "images": [
+            "modern-violin-8.jpg",
+            "modern-violin-9.jpg"
+          ]
+        }
+      },
       {
-        "image": "test.png",
-        "caption": "Description goes here"
-      }
-    ]
-  },
-  {
-    "title": "Title goes here",
-    "slug": "slug-goes-here-12",
-    "blurb": "A short description goes here",
-    "details": [
-      {
-        "image": "test.png",
-        "caption": "Description goes here"
+        "image": "modern-violin-10.png"
       }
     ]
   }
