@@ -26,8 +26,8 @@ class Video extends React.Component {
     return {
       controls: true,
       sources: [{
-        src: props['source'],
-        type: props['type'] || 'video/mp4'
+        src: props.source,
+        type: props.type || 'video/mp4'
       }]
     }
   }

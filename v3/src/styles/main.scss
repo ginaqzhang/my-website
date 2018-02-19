@@ -1,5 +1,5 @@
 /*
- * styles.scss
+ * main.scss
  */
 
 @import 'values';
@@ -14,14 +14,14 @@ body {
 	color: $black;
 }
 
-#target {
+#___gatsby {
 	margin: 0 auto;
 	max-width: 1200px;
 	padding: 0 5% 5%;
 }
 
 @media screen and (min-width: $breakpoint) {
-	#target {
+	#___gatsby {
 		padding: 0 7% 7%;
 	}
 }

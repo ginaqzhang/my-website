@@ -1,6 +1,6 @@
 import React from 'react'
+import Link from 'gatsby-link'
 import classNames from 'classnames'
-import { Link } from 'react-router-dom'
 
 const Header = (props) => (
   <div className="header">

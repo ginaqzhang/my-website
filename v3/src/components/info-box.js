@@ -1,5 +1,4 @@
 import React from 'react'
-import SiteDataProvider from '../data-provider.js'
 
 const InfoBox = ({ title, text }) => {
   let titleComponent = null
@@ -9,7 +8,7 @@ const InfoBox = ({ title, text }) => {
     titleComponent = (
       <div
         className="info-box__title"
-        dangerouslySetInnerHTML={SiteDataProvider.getMarkdown(title)} />
+        dangerouslySetInnerHTML={{ __html: title }} />
     )
   }
 
@@ -17,7 +16,7 @@ const InfoBox = ({ title, text }) => {
     textComponent = (
       <div
         className="info-box__text"
-        dangerouslySetInnerHTML={SiteDataProvider.getMarkdown(text)} />
+        dangerouslySetInnerHTML={{ __html: text }} />
     )
   }
 

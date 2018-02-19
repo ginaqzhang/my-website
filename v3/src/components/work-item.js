@@ -1,20 +1,18 @@
 import React from 'react'
+import AssetResolver from '../utils/asset-resolver.js'
 import ImageSet from './image-set.js'
 import InfoBox from './info-box.js'
-import SiteDataProvider from '../data-provider.js'
 import Video from './video.js'
 
 class WorkItem extends React.Component {
   render () {
-    let item = SiteDataProvider.getDataNode('workItems').find(
-      x => x['slug'] == this.props['slug']
-    )
+    let item = this.props.itemData
 
-    let itemDetails = item['details']
+    let itemDetails = item.details
     let { image: primaryImage, caption: description } = itemDetails[0]
 
     let primaryImageBg = {
-      backgroundImage: `url('${SiteDataProvider.getAssetUrl(primaryImage)}')`
+      backgroundImage: `url('${AssetResolver.getAssetUrl(primaryImage)}')`
     }
 
     let components = [
@@ -25,17 +23,17 @@ class WorkItem extends React.Component {
     for (let i = 1; i < itemDetails.length; ++i) {
       let entry = itemDetails[i]
 
-      if (entry['image']) {
-        components.push(this._createImageComponent(entry['image']))
-      } else if (entry['imageSet']) {
-        components.push(this._createImageSetComponent(entry['imageSet']))
-      } else if (entry['video']) {
-        components.push(this._createVideComponent(entry['video']))
+      if (entry.image) {
+        components.push(this._createImageComponent(entry.image))
+      } else if (entry.imageSet) {
+        components.push(this._createImageSetComponent(entry.imageSet))
+      } else if (entry.video) {
+        components.push(this._createVideComponent(entry.video))
       }
 
-      if (entry['caption']) {
+      if (entry.caption) {
         components.push(
-          <InfoBox text={entry['caption']} key={this._getKey()} />
+          <InfoBox text={entry.caption} key={this._getKey()} />
         )
       }
     }
@@ -45,7 +43,7 @@ class WorkItem extends React.Component {
 
   _createImageComponent (image) {
     let imageBg = {
-      backgroundImage: `url('${SiteDataProvider.getAssetUrl(image)}')`
+      backgroundImage: `url('${AssetResolver.getAssetUrl(image)}')`
     }
 
     return (
@@ -57,15 +55,15 @@ class WorkItem extends React.Component {
     return (
       <div className="work-item__img-set" key={this._getKey()}>
         <ImageSet
-          rows={imageSet['rows']}
-          cols={imageSet['cols']}
-          images={imageSet['images']} />
+          rows={imageSet.rows}
+          cols={imageSet.cols}
+          images={imageSet.images} />
       </div>
     )
   }
 
   _createVideComponent (video) {
-    let videoSrc = `/${SiteDataProvider.getAssetUrl(video)}`
+    let videoSrc = `${AssetResolver.getAssetUrl(video)}`
 
     return (
       <div className="work-item__video" key={this._getKey()}>
