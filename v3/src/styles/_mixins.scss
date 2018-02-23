@@ -6,4 +6,10 @@
 	p:last-of-type {
 		margin-bottom: 0;
 	}
+
+	a {
+		font-weight: bolder;
+		text-decoration: none;
+		color: $black;
+	}
 }

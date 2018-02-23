@@ -9,14 +9,10 @@ class WorkItem extends React.Component {
     let item = this.props.itemData
 
     let itemDetails = item.details
-    let { image: primaryImage, caption: description } = itemDetails[0]
-
-    let primaryImageBg = {
-      backgroundImage: `url('${AssetResolver.getAssetUrl(primaryImage)}')`
-    }
+    let { caption: description } = itemDetails[0]
 
     let components = [
-      <div className="work-item__img" key="img0" style={primaryImageBg} />,
+      this._createImageComponent(itemDetails[0]),
       <InfoBox title={item.title} text={description} key="info0" />
     ]
 
@@ -24,11 +20,11 @@ class WorkItem extends React.Component {
       let entry = itemDetails[i]
 
       if (entry.image) {
-        components.push(this._createImageComponent(entry.image))
+        components.push(this._createImageComponent(entry))
       } else if (entry.imageSet) {
-        components.push(this._createImageSetComponent(entry.imageSet))
+        components.push(this._createImageSetComponent(entry))
       } else if (entry.video) {
-        components.push(this._createVideComponent(entry.video))
+        components.push(this._createVideComponent(entry))
       }
 
       if (entry.caption) {
@@ -41,35 +37,42 @@ class WorkItem extends React.Component {
     return <div className="work-item">{components}</div>
   }
 
-  _createImageComponent (image) {
+  _createImageComponent (entry) {
     let imageBg = {
-      backgroundImage: `url('${AssetResolver.getAssetUrl(image)}')`
+      backgroundImage: `url('${AssetResolver.getAssetUrl(entry.image)}')`
     }
 
     return (
-      <div className="work-item__img" key={this._getKey()} style={imageBg} />
-    )
-  }
-
-  _createImageSetComponent (imageSet) {
-    return (
-      <div className="work-item__img-set" key={this._getKey()}>
-        <ImageSet
-          rows={imageSet.rows}
-          cols={imageSet.cols}
-          images={imageSet.images} />
+      <div className="work-item__img" key={this._getKey()} style={imageBg}>
+        {this._createSpacerForAspectRatio(entry.aspectRatio)}
       </div>
     )
   }
 
-  _createVideComponent (video) {
-    let videoSrc = `${AssetResolver.getAssetUrl(video)}`
+  _createImageSetComponent (entry) {
+    let imageSet = JSON.parse(entry.imageSet)
+
+    return (
+      <div className="work-item__img-set" key={this._getKey()}>
+        <ImageSet data={imageSet} />
+        {this._createSpacerForAspectRatio(entry.aspectRatio)}
+      </div>
+    )
+  }
+
+  _createVideComponent (entry) {
+    let videoSrc = `${AssetResolver.getAssetUrl(entry.video)}`
 
     return (
       <div className="work-item__video" key={this._getKey()}>
         <Video source={videoSrc} />
       </div>
     )
+  }
+
+  _createSpacerForAspectRatio (aspectRatio) {
+    let style = { paddingBottom: aspectRatio || '75%' }
+    return <div style={style} />
   }
 
   _getKey () {

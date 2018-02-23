@@ -29,6 +29,11 @@ exports.createPages = ({ graphql, boundActionCreators }) => {
       })
       resolve()
     })
+
+    createPage({
+      path: `/work`,
+      component: path.resolve('./src/pages/index.js')
+    })
   })
 }
 
@@ -39,6 +44,11 @@ exports.onCreateNode = ({ node }) => {
     for (let entry of node.details) {
       if (entry.caption) {
         entry.caption = md.render(entry.caption)
+      }
+
+      // Since the JSON transformer can't handle complex schemas
+      if (entry.imageSet) {
+        entry.imageSet = JSON.stringify(entry.imageSet)
       }
     }
   }

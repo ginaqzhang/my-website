@@ -7,19 +7,13 @@
 		background-color: #ededed;
 		background-position: center;
 		background-size: cover;
-
-		&:before {
-			content: '';
-			display: block;
-			padding-bottom: $img-height-ratio;
-		}
 	}
 
 	&__img-set {
 		background-color: transparent;
 		position: relative;
 
-		& > div {
+		& > .image-set {
 			position: absolute;
 			top: 0;
 		}

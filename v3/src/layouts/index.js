@@ -3,6 +3,7 @@ import AssetResolver from '../utils/asset-resolver.js'
 import Header from '../components/header.js'
 import Helmet from 'react-helmet'
 import PropTypes from 'prop-types'
+import SocialIcons from '../components/social-icons.js'
 
 import '../styles/main.scss'
 
@@ -18,6 +19,7 @@ const TemplateWrapper = ({ children, data, location }) => {
       <div>
         {children()}
       </div>
+      <SocialIcons data={data.markdownRemark.frontmatter.socialIcons} />
     </div>
   )
 }
@@ -33,6 +35,14 @@ export const query = graphql`
     site {
       siteMetadata {
         title
+      }
+    },
+    markdownRemark(frontmatter: { path: { eq: "/about" } }) {
+      frontmatter {
+        socialIcons {
+          icon,
+          link
+        }
       }
     },
     allFile(filter: { relativePath: { regex: "/^assets\//" } }) {

@@ -1,0 +1,24 @@
+$icon-size: 30px;
+
+.social-icons {
+	margin: ($footer-height - $icon-size) / 2 auto;
+	text-align: center;
+}
+
+.social-icon {
+	display: inline-block;
+	margin: 0 $grid-gap-sm;
+
+	&__img {
+		height: $icon-size;
+		width: $icon-size;
+		background-size: cover;
+		background-position: center;
+		opacity: 0.3;
+		transition: 0.5s ease-out opacity;
+
+		&:hover {
+			opacity: 0.8;
+		}
+	}
+}

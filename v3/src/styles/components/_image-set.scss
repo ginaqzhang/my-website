@@ -1,8 +1,12 @@
 .image-set {
 	display: grid;
-	grid-gap: $grid-gap-sm;
+	grid-gap: $inner-grid-gap-sm;
 	width: 100%;
 	height: 100%;
+
+	&__row {
+		display: flex;
+	}
 
 	&__img {
 		background-color: #ededed;
@@ -10,5 +14,24 @@
 		background-size: cover;
 		height: 100%;
 		width: 100%;
+		margin: 0 $inner-grid-gap-sm / 2;
+
+		&:first-of-type {
+			margin-left: 0;
+		}
+
+		&:last-of-type {
+			margin-right: 0
+		}
+	}
+}
+
+@media screen and (min-width: $breakpoint) {
+	.image-set {
+		grid-gap: $inner-grid-gap;
+
+		&__img {
+			margin: 0 $inner-grid-gap / 2;
+		}
 	}
 }

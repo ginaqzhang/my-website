@@ -20,13 +20,10 @@ export const query = graphql`
       title,
       details {
         image,
-        imageSet {
-          rows,
-          cols,
-          images
-        },
+        imageSet,
         video,
-        caption
+        caption,
+        aspectRatio
       }
     },
     allWorkItemsJson {

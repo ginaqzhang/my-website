@@ -1,16 +1,20 @@
 ---
   path: /about
-  title: About
-  image: test.png
+  title: Hi, I'm Gina!
+  image: about.jpg
   socialIcons:
-    - icon: test.png
-      link: /
-    - icon: test.png
-      link: /
-    - icon: test.png
-      link: /
-    - icon: test.png
-      link: /
+    - icon: mail.png
+      link: mailto:ginaqzhang@gmail.com
+    - icon: linkedin.png
+      link: https://linkedin.com/in/ginaqzhang
+    - icon: behance.png
+      link: https://www.behance.net/ginaqzhang
 ---
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+I’m currently a Junior in Industrial Design at the [Rhode Island School of Design](http://www.risd.edu), and I’ll be graduating in 2019. I enjoy making friendly and meaningful designs, as well as hiking, skiing, and petting dogs at the shelter.
+
+Currently, I’m taking a couple of classes that I’m very excited about. One is a Brown University engineering class called Appropriate Technology, where we’re learning about different forms of sustainable energy creation. We’ll be applying this knowledge to design and build our own working renewable energy systems.
+
+Another class is called Smart Matter, where throughout the semester we’ll be experimenting with unfamiliar materials such as polyurethanes and other “smart materials.” We’ll be working to design products that use these materials in novel ways.
+
+Keep an eye out for new updates on my projects in these classes and more!

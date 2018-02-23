@@ -13,43 +13,40 @@
         "caption": "**Table**\n\nThe table made for this collection has two layers in order to give objects set on the tables separation. More than once I have knocked a cup of water over on a table, and had to scramble to make sure that no electronics or books were going to get damaged. With this table, you can put more valuable objects on the top layer, and then keep your drinks and other less valuable items on the bottom layer without worrying about accidental spills if you knock your drink over."
       },
       {
-        "imageSet": {
-          "rows": 2,
-          "cols": 2,
-          "images": [
+        "imageSet": [
+          [
             "lively-living-3.jpg",
-            "lively-living-4.jpg",
+            "lively-living-4.jpg"
+          ],
+          [
             "lively-living-5.jpg",
             "lively-living-6.jpg"
           ]
-        }
+        ]
       },
       {
         "image": "lively-living-7.jpg",
         "caption": "**Lamp**\n\nI originally wanted to design a lamp that would go on top of the table, but I realized that having a lamp on top of the table would make the collection look cluttered, and also increase the chance of knocking something over higher. A floor lamp is harder to knock over, and visually goes with the collection better."
       },
       {
-        "imageSet": {
-          "rows": 1,
-          "cols": 2,
-          "images": [
+        "imageSet": [
+          [
             "lively-living-8.jpg",
             "lively-living-9.jpg"
           ]
-        }
+        ]
       },
       {
-        "imageSet": {
-          "rows": 1,
-          "cols": 2,
-          "images": [
+        "imageSet": [
+          [
             "lively-living-9.jpg",
             "lively-living-10.jpg"
           ]
-        }
+        ]
       },
       {
-        "image": "lively-living-11.jpg"
+        "image": "lively-living-11.jpg",
+        "caption": "For more details on [this project](https://www.behance.net/gallery/60958085/Lively-Living) and others, check out my [Behance](https://www.behance.net/ginaqzhang)."
       }
     ]
   },
@@ -83,7 +80,8 @@
         "caption": "The cap on top also wasn’t included as part of my initial plans, but at the last minute I felt like the object wasn’t complete, so I decided to make that component. It ended up being one of the more interesting parts of this project -- as shown in the video, it’s flippable and makes a clinking sound."
       },
       {
-        "video": "metals-video-2.mp4"
+        "video": "metals-video-2.mp4",
+        "caption": "For more details on [this project](https://www.behance.net/gallery/61848331/Metals-Exploration) and others, check out my [Behance](https://www.behance.net/ginaqzhang)."
       }
     ]
   },
@@ -97,21 +95,23 @@
         "caption": "The watering can project was a branding exercise where we were challenged to convey an existing brand's design language through a watering can. I chose Porsche because I was interested in the way different curves flow smoothly into one another in their car designs. I enjoyed exploring how Porsche cars, both new and old, have their curved designs punctuated by the occasional sharp edge."
       },
       {
-        "imageSet": {
-          "rows": 2,
-          "cols": 3,
-          "images": [
+        "imageSet": [
+          [
             "porsche-2.jpg",
             "porsche-3.jpg",
-            "porsche-4.jpg",
-            "porsche-5.jpg",
-            "porsche-6.jpg",
-            "porsche-7.jpg"
+            "porsche-4.jpg"
+          ],
+          [
+            { "asset": "porsche-5.jpg", "width": "20%" },
+            { "asset": "porsche-6.jpg", "width": "40%" },
+            { "asset": "porsche-7.jpg", "width": "40%" }
           ]
-        }
+        ],
+        "aspectRatio": "55%"
       },
       {
-        "image": "porsche-8.jpg"
+        "image": "porsche-8.jpg",
+        "caption": "For more details on [this project](https://www.behance.net/gallery/60933365/Porsche-Watering-Can) and others, check out my [Behance](https://www.behance.net/ginaqzhang)."
       }
     ]
   },
@@ -125,52 +125,52 @@
         "caption": "This project was an exercise to understand form language. We had to make 3 different forms of different sizes in order to convey two words that we had to work off of for the form family. The two words I worked with were \"calm\" and \"cascade.\""
       },
       {
-        "imageSet": {
-          "rows": 2,
-          "cols": 3,
-          "images": [
+        "imageSet": [
+          [
             "forms-2.jpg",
             "forms-3.jpg",
-            "forms-4.jpg",
+            "forms-4.jpg"
+          ],
+          [
             "forms-5.jpg",
             "forms-6.jpg",
             "forms-7.jpg"
           ]
-        }
+        ]
       },
       {
         "image": "forms-8.jpg"
       },
       {
-        "imageSet": {
-          "rows": 2,
-          "cols": 3,
-          "images": [
+        "imageSet": [
+          [
             "forms-9.jpg",
             "forms-10.jpg",
-            "forms-11.jpg",
+            "forms-11.jpg"
+          ],
+          [
             "forms-12.jpg",
             "forms-13.jpg",
             "forms-15.jpg"
           ]
-        }
+        ]
       },
       {
         "image": "forms-16.jpg"
       },
       {
-        "imageSet": {
-          "rows": 2,
-          "cols": 3,
-          "images": [
+        "imageSet": [
+          [
             "forms-17.jpg",
             "forms-18.jpg",
-            "forms-19.jpg",
+            "forms-19.jpg"
+          ],
+          [
             "forms-20.jpg",
             "forms-21.jpg",
             "forms-22.jpg"
           ]
-        }
+        ]
       },
       {
         "image": "forms-23.jpg"
@@ -179,7 +179,53 @@
         "image": "forms-24.jpg"
       },
       {
-        "image": "forms-25.jpg"
+        "image": "forms-25.jpg",
+        "caption": "For more details on [this project](https://www.behance.net/gallery/57635799/Form-Study) and others, check out my [Behance](https://www.behance.net/ginaqzhang)."
+      }
+    ]
+  },
+  {
+    "title": "Modern Violin",
+    "slug": "modern-violin",
+    "blurb": "The violin reimagined with a modern twist",
+    "details": [
+      {
+        "image": "modern-violin-1.png",
+        "caption": "This is a fully functioning violin that is made to have a more modern style. The violin is asymmetrical to make it more comfortable for the player’s hand when going up to higher positions. The traditional scroll has been turned into a hook for easy carrying with one finger."
+      },
+      {
+        "imageSet": [
+          [
+            "modern-violin-2.jpg",
+            "modern-violin-3.jpg"
+          ]
+        ]
+      },
+      {
+        "imageSet": [
+          [
+            "modern-violin-4.jpg",
+            "modern-violin-5.jpg"
+          ],
+          [
+            "modern-violin-6.jpg",
+            "modern-violin-7.jpg"
+          ]
+        ],
+        "aspectRatio": "60%"
+      },
+      {
+        "imageSet": [
+          [
+            "modern-violin-8.jpg",
+            "modern-violin-9.jpg"
+          ]
+        ]
+      },
+      {
+        "image": "modern-violin-10.png",
+        "aspectRatio": "50%",
+        "caption": "For more details on [this project](https://www.behance.net/gallery/37699119/Spatial-Final-A-More-Modern-Violin) and others, check out my [Behance](https://www.behance.net/ginaqzhang)."
       }
     ]
   },
@@ -193,29 +239,27 @@
         "caption": "In many countries besides America, many people rely on squatting to facilitate elimination. Although many Americans realize that squatting is healthier, most of them don’t incorporate it into their daily routines. In response to this issue, I designed an ergonomic toilet that introduces the concept of squatting on the toilet in a familiar form."
       },
       {
-        "imageSet": {
-          "rows": 1,
-          "cols": 2,
-          "images": [
+        "imageSet": [
+          [
             "toilet-2.png",
             "toilet-3.png"
           ]
-        },
+        ],
         "caption": "**User Testing**"
       },
       {
-        "imageSet": {
-          "rows": 1,
-          "cols": 2,
-          "images": [
+        "imageSet": [
+          [
             "toilet-4.png",
             "toilet-5.png"
           ]
-        },
+        ],
+        "aspectRatio": "60%",
         "caption": "**Final Model**"
       },
       {
-        "image": "toilet-6.jpg"
+        "image": "toilet-6.jpg",
+        "caption": "For more details on [this project](https://www.behance.net/gallery/57366319/How-do-you-do-your-poo-A-more-ergonomic-toilet) and others, check out my [Behance](https://www.behance.net/ginaqzhang)."
       }
     ]
   },
@@ -238,7 +282,7 @@
       },
       {
         "image": "ride-on-4.gif",
-        "caption": "In the second video clip, the child sitting on the ride is seen struggling to find a place to put his hands. He first places his hands on the back wheel, but that is unsafe, and is directed to put his hands at the front of the car. That is uncomfortable for him, though, and he continues to struggle to find a place to rest his hands."
+        "caption": "In the second video clip, the child sitting on the ride is seen struggling to find a place to put his hands. He first places his hands on the back wheel, but that is unsafe, and is directed to put his hands at the front of the car. That is uncomfortable for him, though, and he continues to struggle to find a place to rest his hands.\n\nFor more details on [this project](https://www.behance.net/gallery/61369255/4-Hour-Childrens-Ride-On-Challenge) and others, check out my [Behance](https://www.behance.net/ginaqzhang)."
       }
     ]
   },
@@ -252,62 +296,51 @@
         "caption": "This is a project that investigated creative ways to carry dogs. Through market research, I discovered that there were very few dog carriers that allowed people to conveniently carry both on and off a bike. This backpack design is meant to be comfortable for both the dog and the human, and also be very versatile for travel."
       },
       {
-        "imageSet": {
-          "rows": 2,
-          "cols": 2,
-          "images": [
+        "imageSet": [
+          [
             "dog-carrier-2.png",
-            "dog-carrier-3.png",
+            "dog-carrier-3.png"
+          ],
+          [
             "dog-carrier-4.png",
             "dog-carrier-5.png"
           ]
-        }
+        ],
+        "aspectRatio": "100%",
+        "caption": "For more details on [this project](https://www.behance.net/gallery/49360067/Dog-Carrier-for-Bikes-Prototype) and others, check out my [Behance](https://www.behance.net/ginaqzhang)."
       }
     ]
   },
   {
-    "title": "Modern Violin",
-    "slug": "modern-violin",
-    "blurb": "The violin reimagined with a modern twist",
+    "title": "Deck",
+    "slug": "deck",
+    "blurb": "A contracting project",
     "details": [
       {
-        "image": "modern-violin-1.png",
-        "caption": "This is a fully functioning violin that is made to have a more modern style. The violin is asymmetrical to make it more comfortable for the player’s hand when going up to higher positions. The traditional scroll has been turned into a hook for easy carrying with one finger."
+        "image": "deck-1.jpg",
+        "caption": "This is a deck that I helped tear down and rebuild when I worked as a contractor's assistant.\n\nI gained experience with hand and construction tools, as we needed to find a lot of creative ways to cut the materials we needed to the right size. Even though rebuilding a deck isn’t a typical design project, it was a valuable experience as I learned a lot about building projects on a large scale, as well as working with customers to meet deadlines."
       },
       {
-        "imageSet": {
-          "rows": 1,
-          "cols": 2,
-          "images": [
-            "modern-violin-2.jpg",
-            "modern-violin-3.jpg"
+        "image": "deck-2.jpg",
+        "aspectRatio": "55%"
+      },
+      {
+        "imageSet": [
+          [
+            { "asset": "deck-3.jpg", "width": "67%" },
+            { "asset": "deck-4.jpg", "width": "33%" }
           ]
-        }
+        ],
+        "aspectRatio": "55%"
       },
       {
-        "imageSet": {
-          "rows": 2,
-          "cols": 2,
-          "images": [
-            "modern-violin-4.jpg",
-            "modern-violin-5.jpg",
-            "modern-violin-6.jpg",
-            "modern-violin-7.jpg"
+        "imageSet": [
+          [
+            "deck-5.jpg",
+            "deck-6.jpg"
           ]
-        }
-      },
-      {
-        "imageSet": {
-          "rows": 1,
-          "cols": 2,
-          "images": [
-            "modern-violin-8.jpg",
-            "modern-violin-9.jpg"
-          ]
-        }
-      },
-      {
-        "image": "modern-violin-10.png"
+        ],
+        "caption": "For more details on [this project](https://www.behance.net/gallery/62420921/Deck) and others, check out my [Behance](https://www.behance.net/ginaqzhang)."
       }
     ]
   }

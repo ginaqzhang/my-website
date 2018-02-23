@@ -4,6 +4,7 @@ $title-spacing: 14px;
 	&__title {
 		@include md-container;
 		margin: 0 0 $title-spacing;
+		font-family: $display-font;
 		font-size: 20px;
 		font-weight: 600;
 	}

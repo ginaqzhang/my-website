@@ -1,12 +1,13 @@
-$header-height: 200px;
-
 .header {
 	height: $header-height;
 	position: relative;
+	font-family: $display-font;
 	text-align: center;
+	text-transform: uppercase;
 
 	&__title {
 		font-size: 36px;
+		font-weight: 700;
 		margin: 0;
 		white-space: nowrap;
 		text-overflow: ellipsis;
@@ -29,6 +30,7 @@ $header-height: 200px;
 		color: $black;
 		opacity: 0.5;
 		font-size: 16px;
+		font-weight: 400;
 		text-decoration: none;
 		margin: 10px;
 		transition: 0.5s ease-out opacity;

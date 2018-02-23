@@ -18,8 +18,10 @@
 
 	&__title {
 		@include md-container;
+		font-family: $display-font;
 		font-size: 13px;
 		font-weight: 400;
+		text-transform: uppercase;
 		margin: 0;
 	}
 
@@ -41,33 +43,44 @@
 			right: 0;
 			padding: 20px;
 			text-align: left;
-			background-color: rgba($black, 0.8);
-			color: $white;
+			background-color: $white;
+			color: $black;
 			opacity: 0;
 			overflow: auto;
-			transition: 0.5s ease opacity;
+			transition: 0.2s ease-out opacity;
 
 			&:hover {
 				opacity: 1;
 			}
 		}
 
+		&__overlay-content {
+			position: absolute;
+			left: 0;
+			right: 0;
+			top: 50%;
+			transform: translateY(-50%);
+		}
+
 		&__title {
-			font-size: 16px;
+			font-size: 24px;
+			font-weight: 600;
+			text-align: center;
 		}
 
 		&__blurb {
 			display: block;
 			font-size: 13px;
 			margin-top: 16px;
+			text-align: center;
 
-			&:after {
+			&:before {
 				content: '';
 				display: block;
-				margin-top: 16px;
+				margin: 16px auto;
 				height: 2px;
 				width: 10px;
-				background-color: $white;
+				background-color: $black;
 			}
 		}
 	}
