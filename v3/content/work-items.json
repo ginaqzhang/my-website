@@ -45,10 +45,10 @@
         ]
       },
       {
-        "image": "lively-living-11.jpg",
-        "caption": "For more details on [this project](https://www.behance.net/gallery/60958085/Lively-Living) and others, check out my [Behance](https://www.behance.net/ginaqzhang)."
+        "image": "lively-living-11.jpg"
       }
-    ]
+    ],
+    "footer": "Check out my [Behance](https://www.behance.net/ginaqzhang) for more details on [Lively Living](https://www.behance.net/gallery/60958085/Lively-Living)"
   },
   {
     "title": "Metals Exploration",
@@ -80,10 +80,10 @@
         "caption": "The cap on top also wasn’t included as part of my initial plans, but at the last minute I felt like the object wasn’t complete, so I decided to make that component. It ended up being one of the more interesting parts of this project -- as shown in the video, it’s flippable and makes a clinking sound."
       },
       {
-        "video": "metals-video-2.mp4",
-        "caption": "For more details on [this project](https://www.behance.net/gallery/61848331/Metals-Exploration) and others, check out my [Behance](https://www.behance.net/ginaqzhang)."
+        "video": "metals-video-2.mp4"
       }
-    ]
+    ],
+    "footer": "Check out my [Behance](https://www.behance.net/ginaqzhang) for more details on this [Metals Exploration](https://www.behance.net/gallery/61848331/Metals-Exploration)"
   },
   {
     "title": "Porsche Watering Can",
@@ -110,10 +110,10 @@
         "aspectRatio": "55%"
       },
       {
-        "image": "porsche-8.jpg",
-        "caption": "For more details on [this project](https://www.behance.net/gallery/60933365/Porsche-Watering-Can) and others, check out my [Behance](https://www.behance.net/ginaqzhang)."
+        "image": "porsche-8.jpg"
       }
-    ]
+    ],
+    "footer": "Check out my [Behance](https://www.behance.net/ginaqzhang) for more details on the [Porsche Watering Can](https://www.behance.net/gallery/60933365/Porsche-Watering-Can)"
   },
   {
     "title": "Forms Study",
@@ -179,10 +179,53 @@
         "image": "forms-24.jpg"
       },
       {
-        "image": "forms-25.jpg",
-        "caption": "For more details on [this project](https://www.behance.net/gallery/57635799/Form-Study) and others, check out my [Behance](https://www.behance.net/ginaqzhang)."
+        "image": "forms-25.jpg"
       }
-    ]
+    ],
+    "footer": "Check out my [Behance](https://www.behance.net/ginaqzhang) for more details on this [Forms Study](https://www.behance.net/gallery/57635799/Form-Study)"
+  },
+  {
+    "title": "Waffle Crisps",
+    "slug": "waffle-crisps",
+    "blurb": "Reducing food industry waste",
+    "details": [
+      {
+        "image": "waffle-crisps-1.png",
+        "caption": "This project was for a class called Playing in the Kitchen, where we designed products and systems related to food and beverages. We were assigned to do two potentially related projects throughout the semester, and we had the freedom to choose what we were interested in studying. For the first project, I decided to focus on how coffee shops use their refillable mugs and bottles systems. I discovered that a lot of coffee shops do not actually advertise the discounts that they give on bringing a reusable beverage container, and if they did, the information would be somewhere extremely unnoticeable. This made me realize that the food and beverage industry was a huge contributor to the amount of trash being thrown into the landfills all the time."
+      },
+      {
+        "image": "waffle-crisps-2.png",
+        "caption": "For my second project, I decided that I wanted to make a product that would potentially help reduce the problem. My Waffle Crisps idea came from the intention to reduce the amount of plastic spoons being thrown into the trash in ice cream stores. Even though I did make packaging for it, I believe that Waffle Crisps would be most effective in reducing plastic trash if it were to either be given out or sold in ice cream shops along with the ice cream you order."
+      },
+      {
+        "image": "waffle-crisps-3.png",
+        "caption": "**Packaging & Branding**"
+      },
+      {
+        "imageSet": [
+          [
+            "waffle-crisps-1.png",
+            "waffle-crisps-4.png"
+          ]
+        ],
+        "aspectRatio": "50%"
+      },
+      {
+        "image": "waffle-crisps-5.gif",
+        "aspectRatio": "110%"
+      },
+      {
+        "imageSet": [
+          [
+            "waffle-crisps-6.png",
+            "waffle-crisps-7.png"
+          ]
+        ],
+        "caption": "**Article**\n\nAfter both projects, we had to write [an article](/waffle-crisps.pdf) explaining why we did what we did. We also had design a mock-up of the article, as if it was published in some media source. I decided that Time Magazine was a good choice for my topic because the problem I was tackling is a serious issue, but with a fun twist.",
+        "aspectRatio": "63%"
+      }
+    ],
+    "footer": "Check out my [Behance](https://www.behance.net/ginaqzhang) for more details on [Waffle Crisps](https://www.behance.net/gallery/62019959/Waffle-Crisps)"
   },
   {
     "title": "Modern Violin",
@@ -224,10 +267,10 @@
       },
       {
         "image": "modern-violin-10.png",
-        "aspectRatio": "50%",
-        "caption": "For more details on [this project](https://www.behance.net/gallery/37699119/Spatial-Final-A-More-Modern-Violin) and others, check out my [Behance](https://www.behance.net/ginaqzhang)."
+        "aspectRatio": "50%"
       }
-    ]
+    ],
+    "footer": "Check out my [Behance](https://www.behance.net/ginaqzhang) for more details on the [Modern Violin](https://www.behance.net/gallery/37699119/Spatial-Final-A-More-Modern-Violin)"
   },
   {
     "title": "How Do You Do Your Poo?",
@@ -258,10 +301,10 @@
         "caption": "**Final Model**"
       },
       {
-        "image": "toilet-6.jpg",
-        "caption": "For more details on [this project](https://www.behance.net/gallery/57366319/How-do-you-do-your-poo-A-more-ergonomic-toilet) and others, check out my [Behance](https://www.behance.net/ginaqzhang)."
+        "image": "toilet-6.jpg"
       }
-    ]
+    ],
+    "footer": "Check out my [Behance](https://www.behance.net/ginaqzhang) for more details on [How Do You Do Your Poo?](https://www.behance.net/gallery/57366319/How-do-you-do-your-poo-A-more-ergonomic-toilet)"
   },
   {
     "title": "Four Hour Children's Ride-On Challenge",
@@ -282,9 +325,10 @@
       },
       {
         "image": "ride-on-4.gif",
-        "caption": "In the second video clip, the child sitting on the ride is seen struggling to find a place to put his hands. He first places his hands on the back wheel, but that is unsafe, and is directed to put his hands at the front of the car. That is uncomfortable for him, though, and he continues to struggle to find a place to rest his hands.\n\nFor more details on [this project](https://www.behance.net/gallery/61369255/4-Hour-Childrens-Ride-On-Challenge) and others, check out my [Behance](https://www.behance.net/ginaqzhang)."
+        "caption": "In the second video clip, the child sitting on the ride is seen struggling to find a place to put his hands. He first places his hands on the back wheel, but that is unsafe, and is directed to put his hands at the front of the car. That is uncomfortable for him, though, and he continues to struggle to find a place to rest his hands."
       }
-    ]
+    ],
+    "footer": "Check out my [Behance](https://www.behance.net/ginaqzhang) for more details on the [Four Hour Children's Ride-On Challenge](https://www.behance.net/gallery/61369255/4-Hour-Childrens-Ride-On-Challenge)"
   },
   {
     "title": "Dog Carrier for Bikes",
@@ -294,6 +338,11 @@
       {
         "image": "dog-carrier-1.jpg",
         "caption": "This is a project that investigated creative ways to carry dogs. Through market research, I discovered that there were very few dog carriers that allowed people to conveniently carry both on and off a bike. This backpack design is meant to be comfortable for both the dog and the human, and also be very versatile for travel."
+      },
+      {
+        "image": "dog-carrier-drawings.png",
+        "caption": "**Orthographic Drawing, Material Reference, & Human Model**",
+        "aspectRatio": "50%"
       },
       {
         "imageSet": [
@@ -306,10 +355,10 @@
             "dog-carrier-5.png"
           ]
         ],
-        "aspectRatio": "100%",
-        "caption": "For more details on [this project](https://www.behance.net/gallery/49360067/Dog-Carrier-for-Bikes-Prototype) and others, check out my [Behance](https://www.behance.net/ginaqzhang)."
+        "aspectRatio": "100%"
       }
-    ]
+    ],
+    "footer": "Check out my [Behance](https://www.behance.net/ginaqzhang) for more details on the [Dog Carrier for Bikes](https://www.behance.net/gallery/49360067/Dog-Carrier-for-Bikes-Prototype)"
   },
   {
     "title": "Deck",
@@ -339,8 +388,73 @@
             "deck-5.jpg",
             "deck-6.jpg"
           ]
-        ],
-        "caption": "For more details on [this project](https://www.behance.net/gallery/62420921/Deck) and others, check out my [Behance](https://www.behance.net/ginaqzhang)."
+        ]
+      }
+    ],
+    "footer": "Check out my [Behance](https://www.behance.net/ginaqzhang) for more details on the [Dog Carrier for Bikes](https://www.behance.net/gallery/62420921/Deck)"
+  },
+  {
+    "title": "Miscellaneous",
+    "slug": "misc",
+    "blurb": "Other work I've done",
+    "noHover": true,
+    "details": [
+      {
+        "image": "lock.jpg",
+        "caption": "This section contains some other, smaller, things I've worked on.\n\n**Small to Large Lock**",
+        "aspectRatio": "100%"
+      },
+      {
+        "image": "some-drawings.png",
+        "caption": "Some drawings I did for a workshop on sketching products.",
+        "aspectRatio": "150%",
+        "imageAlignment": "center -25px",
+        "hasBorder": true
+      },
+      {
+        "image": "metals-1-exploration.jpg",
+        "caption": "**Metals 1 Exploration**"
+      },
+      {
+        "video": "metals-1-exploration.mp4",
+        "aspectRatio": "100%"
+      },
+      {
+        "image": "oil-and-vinegar-forms.jpg",
+        "caption": "**Oil and Vinegar Bottle Forms**"
+      },
+      {
+        "image": "vacuum-1.jpg",
+        "caption": "\n\n**Playskool Toy Vacuum Illustrator Drawings**\n\nOrthographic, In use, and exploded view illustrator drawings of a purple Playskool toy vacuum.",
+        "aspectRatio": "118%"
+      },
+      {
+        "image": "vacuum-2.png",
+        "aspectRatio": "65%"
+      },
+      {
+        "image": "vacuum-4.png",
+        "aspectRatio": "180%"
+      },
+      {
+        "image": "hedgehog.jpg",
+        "caption": "**Hedgehog Push Toy**",
+        "aspectRatio": "55%"
+      },
+      {
+        "image": "fire-hydrant.jpg",
+        "caption": "**Rhino Fire Hydrant**",
+        "aspectRatio": "110%"
+      },
+      {
+        "image": "paper-lamp.jpg",
+        "caption": "**Paper Lamp**",
+        "aspectRatio": "120%"
+      },
+      {
+        "image": "elephant-push-pin.jpg",
+        "caption": "**Elephant Push Pin**",
+        "aspectRatio": "55%"
       }
     ]
   }

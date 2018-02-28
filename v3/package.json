@@ -21,6 +21,7 @@
     "gatsby-transformer-json": "^1.0.15",
     "gatsby-transformer-remark": "^1.7.32",
     "markdown-it": "^8.4.1",
+    "react-ga": "^2.4.1",
     "react-helmet": "^5.2.0",
     "video.js": "^6.6.3"
   }

@@ -7,6 +7,7 @@ const Header = (props) => (
     <h1 className="header__title">
       <Link to="/" className="title-link">Gina Zhang</Link>
     </h1>
+    <div className="header__icon"/>
     <nav className="header__nav">
       <Link
         to="/"

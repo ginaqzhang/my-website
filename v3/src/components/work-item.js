@@ -34,7 +34,21 @@ class WorkItem extends React.Component {
       }
     }
 
-    return <div className="work-item">{components}</div>
+    let styles = {}
+
+    if (item.footer) {
+      components.push(
+        <div
+          key="footer"
+          className="work-item__footer"
+          dangerouslySetInnerHTML={{ __html: item.footer }} />
+      )
+
+      // Make room for the footer
+      styles['paddingBottom'] = '20px'
+    }
+
+    return <div className="work-item" style={styles}>{components}</div>
   }
 
   _createImageComponent (entry) {
@@ -66,6 +80,7 @@ class WorkItem extends React.Component {
     return (
       <div className="work-item__video" key={this._getKey()}>
         <Video source={videoSrc} />
+        {this._createSpacerForAspectRatio(entry.aspectRatio || '56.25%')}
       </div>
     )
   }

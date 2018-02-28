@@ -20,6 +20,10 @@
 		color: $black;
 	}
 
+	&__icon {
+		display: none;
+	}
+
 	&__nav {
 		position: absolute;
 		bottom: 20px;
@@ -48,6 +52,20 @@
 @media screen and (min-width: $breakpoint) {
 	.header {
 		display: flex;
+
+		&__icon {
+			$icon-size: 32px;
+
+			display: block;
+			height: $icon-size;
+			width: $icon-size;
+			background: url('../../content/assets/fishYR.svg');
+			background-size: contain;
+			background-position: center;
+			background-repeat: no-repeat;
+			margin-top: ($header-height - $icon-size) / 2;
+			margin-left: 15px;
+		}
 
 		&__nav {
 			text-align: right;

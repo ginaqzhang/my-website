@@ -24,7 +24,8 @@ export const query = graphql`
         video,
         caption,
         aspectRatio
-      }
+      },
+      footer
     },
     allWorkItemsJson {
       edges {
@@ -32,8 +33,11 @@ export const query = graphql`
           slug,
           title,
           blurb,
+          noHover,
           details {
-            image
+            image,
+            imageAlignment,
+            hasBorder
           }
         }
       }

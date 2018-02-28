@@ -16,9 +16,12 @@ export const query = graphql`
           slug,
           title,
           blurb,
+          noHover,
           details {
-            image
-          }
+            image,
+            imageAlignment,
+            hasBorder
+          },
         }
       }
     }

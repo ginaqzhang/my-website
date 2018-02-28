@@ -51,5 +51,9 @@ exports.onCreateNode = ({ node }) => {
         entry.imageSet = JSON.stringify(entry.imageSet)
       }
     }
+
+    if (node.footer) {
+      node.footer = md.render(node.footer)
+    }
   }
 }

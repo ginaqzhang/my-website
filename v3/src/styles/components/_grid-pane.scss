@@ -1,5 +1,12 @@
 .grid-pane {
 	text-decoration: none;
+	box-sizing: border-box;
+
+	&--bordered {
+		.grid-pane__img {
+			border: 1px solid #ededed;
+		}
+	}
 
 	&__img {
 		padding-bottom: $img-height-ratio;
@@ -29,6 +36,57 @@
 		@include md-container;
 		display: none;
 	}
+
+	&--no-hover {
+		position: relative;
+
+		.grid-pane__overlay {
+			position: absolute;
+			top: -1px;
+			bottom: -1px;
+			left: -1px;
+			right: -1px;
+			border: 1px solid #ededed;
+			text-align: left;
+			background-color: $white;
+			color: $black;
+			opacity: 0;
+			overflow: auto;
+			opacity: 1;
+		}
+
+		.grid-pane__overlay-content {
+			position: absolute;
+			left: 0;
+			right: 0;
+			top: 50%;
+			transform: translateY(-50%);
+		}
+
+		.grid-pane__title {
+			font-size: 24px;
+			font-weight: 600;
+			text-align: center;
+			padding: 0 20px;
+		}
+
+		.grid-pane__blurb {
+			display: block;
+			font-size: 13px;
+			margin-top: 16px;
+			padding: 0 20px;
+			text-align: center;
+
+			&:before {
+				content: '';
+				display: block;
+				margin: 16px auto;
+				height: 2px;
+				width: 10px;
+				background-color: $black;
+			}
+		}
+	}
 }
 
 @media screen and (min-width: $breakpoint) {
@@ -37,11 +95,10 @@
 
 		&__overlay {
 			position: absolute;
-			top: 0;
-			bottom: 0;
-			left: 0;
-			right: 0;
-			padding: 20px;
+			top: -1px;
+			bottom: -1px;
+			left: -1px;
+			right: -1px;
 			text-align: left;
 			background-color: $white;
 			color: $black;
@@ -66,12 +123,14 @@
 			font-size: 24px;
 			font-weight: 600;
 			text-align: center;
+			padding: 0 20px;
 		}
 
 		&__blurb {
 			display: block;
 			font-size: 13px;
 			margin-top: 16px;
+			padding: 0 20px;
 			text-align: center;
 
 			&:before {
