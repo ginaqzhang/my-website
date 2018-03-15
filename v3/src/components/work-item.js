@@ -9,29 +9,40 @@ class WorkItem extends React.Component {
     let item = this.props.itemData
 
     let itemDetails = item.details
-    let { caption: description } = itemDetails[0]
+    let { caption: description, textFirst } = itemDetails[0]
 
-    let components = [
+    let titleEntryItems = [
       this._createImageComponent(itemDetails[0]),
       <InfoBox title={item.title} text={description} key="info0" />
+    ] 
+
+    if (textFirst) {
+      titleEntryItems = titleEntryItems.reverse()
+    }
+
+    let components = [
+      this._createEntryWrapper(titleEntryItems)
     ]
 
     for (let i = 1; i < itemDetails.length; ++i) {
       let entry = itemDetails[i]
-
-      if (entry.image) {
-        components.push(this._createImageComponent(entry))
-      } else if (entry.imageSet) {
-        components.push(this._createImageSetComponent(entry))
-      } else if (entry.video) {
-        components.push(this._createVideComponent(entry))
-      }
+      let entryItems = []
 
       if (entry.caption) {
-        components.push(
+        entryItems.push(
           <InfoBox text={entry.caption} key={this._getKey()} />
         )
       }
+
+      if (entry.image) {
+        entryItems.push(this._createImageComponent(entry))
+      } else if (entry.imageSet) {
+        entryItems.push(this._createImageSetComponent(entry))
+      } else if (entry.video) {
+        entryItems.push(this._createVideComponent(entry))
+      }
+
+      components.push(this._createEntryWrapper(entryItems))
     }
 
     let styles = {}
@@ -49,6 +60,10 @@ class WorkItem extends React.Component {
     }
 
     return <div className="work-item" style={styles}>{components}</div>
+  }
+
+  _createEntryWrapper (items) {
+    return <div className="work-item__entry" key={this._getKey()}>{items}</div>
   }
 
   _createImageComponent (entry) {

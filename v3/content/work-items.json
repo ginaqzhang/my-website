@@ -9,6 +9,49 @@
         "caption": "Lively Living is a living room furniture collection that is meant to reduce the likelihood of ruining important items from being knocked over and at the same time to add life into the inanimate objects we usually have in the living room. The two pieces were made with animal-like characteristics without adding literal animal features. I wanted to make a collection that had a unique modern design look, and was functional. Both the table and lamp were made from ash wood.​​​​​​​"
       },
       {
+        "imageSet": [
+          [
+            "lively-living-process-1.jpg",
+            "lively-living-process-2.jpg",
+            "lively-living-process-3.jpg",
+            "lively-living-process-4.jpg",
+            "lively-living-process-5.jpg",
+            "lively-living-process-6.jpg",
+            "lively-living-process-7.jpg",
+            "lively-living-process-8.jpg"
+          ]
+        ],
+        "caption": "**Inspiration**\n\nSome of my inspiration came from visiting modern furniture stores such as West Elm, Crate & Barrel, and BoConcept.",
+        "aspectRatio": "23%"
+      },
+      {
+        "imageSet": [
+          [
+            "lively-living-process-9.jpg",
+            "lively-living-process-10.jpg",
+            "lively-living-process-11.jpg"
+          ],
+          [
+            "lively-living-process-12.jpg",
+            "lively-living-process-13.jpg"
+          ]
+        ],
+        "caption": "**Prototyping**\n\nOne of the biggest lessons I learned from this project is that the prototyping process can be messy and will not always necessarily flow smoothly from the sketching phase to the prototyping phase. Many times, I had to flip flop between sketching, making mini prototypes, and making full scale prototypes in order to visualize the whole design because designs don’t usually translate very well between 2D and 3D.",
+        "aspectRatio": "50%"
+      },
+      {
+        "imageSet": [
+          [
+            { "asset": "lively-living-process-14.jpg", "width": "26%" },
+            { "asset": "lively-living-process-15.jpg", "width": "26%" },
+            { "asset": "lively-living-process-16.jpg", "width": "11%" },
+            { "asset": "lively-living-process-17.jpg", "width": "26%" },
+            { "asset": "lively-living-process-18.jpg", "width": "11%" }
+          ]
+        ],
+        "aspectRatio": "23%"
+      },
+      {
         "image": "lively-living-2.jpg",
         "caption": "**Table**\n\nThe table made for this collection has two layers in order to give objects set on the tables separation. More than once I have knocked a cup of water over on a table, and had to scramble to make sure that no electronics or books were going to get damaged. With this table, you can put more valuable objects on the top layer, and then keep your drinks and other less valuable items on the bottom layer without worrying about accidental spills if you knock your drink over."
       },
@@ -47,8 +90,90 @@
       {
         "image": "lively-living-11.jpg"
       }
-    ],
-    "footer": "Check out my [Behance](https://www.behance.net/ginaqzhang) for more details on [Lively Living](https://www.behance.net/gallery/60958085/Lively-Living)"
+    ]
+  },
+  {
+    "title": "Porsche Watering Can",
+    "slug": "porsche-watering-can",
+    "blurb": "Evoking a brand through design language",
+    "details": [
+      {
+        "image": "porsche-1.jpg",
+        "caption": "The watering can project was a branding exercise where we were challenged to convey an existing brand's design language through a watering can. I chose Porsche because I was interested in the way different curves flow smoothly into one another in their car designs. I enjoyed exploring how Porsche cars, both new and old, have their curved designs punctuated by the occasional sharp edge."
+      },
+      {
+        "imageSet": [
+          [
+            { "asset": "porsche-inspiration-1.jpg", "width": "60%" },
+            { "asset": "porsche-inspiration-2.jpg", "width": "40%" }
+          ],
+          [
+            { "asset": "porsche-inspiration-3.jpg", "width": "55%" },
+            { "asset": "porsche-inspiration-4.jpg", "width": "45%" }
+          ]
+        ],
+        "caption": "**Inspiration**",
+        "aspectRatio": "60%"
+      },
+      {
+        "imageSet": [
+          [
+            "porsche-process-1.jpg",
+            "porsche-process-2.jpg"
+          ],
+          [
+            { "asset": "porsche-process-3.jpg", "width": "55%" },
+            { "asset": "porsche-process-4.jpg", "width": "45%" }
+          ]
+        ],
+        "caption": "**Sketches & Prototypes**",
+        "aspectRatio": "60%"
+      },
+      {
+        "imageSet": [
+          [
+            "porsche-process-5.jpg",
+            "porsche-process-6.jpg",
+            "porsche-process-7.jpg"
+          ],
+          [
+            "porsche-process-8.jpg",
+            "porsche-process-9.jpg",
+            "porsche-process-10.jpg"
+          ]
+        ],
+        "caption": "**Process**\n\nTo create the form, I carved the main shape out of blue foam and wood, and then spackled it. In order to remove imperfections, I sprayed the form with grey primer, so that imperfections would become visible, and then sanded the imperfections down. Finally, I attached the handle and sprayed the entire form with a metallic grey finish.",
+        "aspectRatio": "50%"
+      },
+      {
+        "imageSet": [
+          [
+            "porsche-process-11.jpg",
+            "porsche-process-12.jpg"
+          ]
+        ],
+        "aspectRatio": "33%"
+      },
+      {
+        "imageSet": [
+          [
+            "porsche-2.jpg",
+            "porsche-3.jpg",
+            "porsche-4.jpg"
+          ],
+          [
+            { "asset": "porsche-5.jpg", "width": "20%" },
+            { "asset": "porsche-6.jpg", "width": "40%" },
+            { "asset": "porsche-7.jpg", "width": "40%" }
+          ]
+        ],
+        "caption": "**Final Form**",
+        "aspectRatio": "55%"
+      },
+      {
+        "image": "porsche-8.jpg"
+      }
+    ]
   },
   {
     "title": "Metals Exploration",
@@ -58,6 +183,31 @@
       {
         "image": "metals-1.jpg",
         "caption": "This piece was made as the final project of my Metals II class. For this project, I machined aluminum and steel on several machines, including a vertical milling machine and a lathe, in order to explore different techniques taught in the class, and to better understand the capabilities of the machines and the materials. Since I wasn’t constrained to making a functional item, I had a great deal of freedom to explore many different things, but I still ended up making a cohesive item."
+      },
+      {
+        "imageSet": [
+          [
+            { "asset": "metals-process-1.png", "width": "26.75%" },
+            { "asset": "metals-process-2.jpg", "width": "26.75%" },
+            { "asset": "metals-process-3.png", "width": "46.5%" }
+          ]
+        ],
+        "caption": "**Original Drawings**",
+        "aspectRatio": "33%"
+      },
+      {
+        "imageSet": [
+          [
+            "metals-process-4.jpg",
+            "metals-process-5.jpg"
+          ],
+          [
+            "metals-process-6.jpg",
+            "metals-process-7.jpg"
+          ]
+        ],
+        "caption": "**Process**",
+        "aspectRatio": "60%"
       },
       {
         "image": "metals-2.jpg",
@@ -82,38 +232,7 @@
       {
         "video": "metals-video-2.mp4"
       }
-    ],
-    "footer": "Check out my [Behance](https://www.behance.net/ginaqzhang) for more details on this [Metals Exploration](https://www.behance.net/gallery/61848331/Metals-Exploration)"
-  },
-  {
-    "title": "Porsche Watering Can",
-    "slug": "porsche-watering-can",
-    "blurb": "Evoking a brand through design language",
-    "details": [
-      {
-        "image": "porsche-1.jpg",
-        "caption": "The watering can project was a branding exercise where we were challenged to convey an existing brand's design language through a watering can. I chose Porsche because I was interested in the way different curves flow smoothly into one another in their car designs. I enjoyed exploring how Porsche cars, both new and old, have their curved designs punctuated by the occasional sharp edge."
-      },
-      {
-        "imageSet": [
-          [
-            "porsche-2.jpg",
-            "porsche-3.jpg",
-            "porsche-4.jpg"
-          ],
-          [
-            { "asset": "porsche-5.jpg", "width": "20%" },
-            { "asset": "porsche-6.jpg", "width": "40%" },
-            { "asset": "porsche-7.jpg", "width": "40%" }
-          ]
-        ],
-        "aspectRatio": "55%"
-      },
-      {
-        "image": "porsche-8.jpg"
-      }
-    ],
-    "footer": "Check out my [Behance](https://www.behance.net/ginaqzhang) for more details on the [Porsche Watering Can](https://www.behance.net/gallery/60933365/Porsche-Watering-Can)"
+    ]
   },
   {
     "title": "Forms Study",
@@ -127,6 +246,20 @@
       {
         "imageSet": [
           [
+            "forms-process-1.jpg",
+            "forms-process-2.jpg"
+          ],
+          [
+            "forms-process-3.jpg",
+            "forms-process-4.jpg"
+          ]
+        ],
+        "caption": "**Process**",
+        "aspectRatio": "60%"
+      },
+      {
+        "imageSet": [
+          [
             "forms-2.jpg",
             "forms-3.jpg",
             "forms-4.jpg"
@@ -136,7 +269,8 @@
             "forms-6.jpg",
             "forms-7.jpg"
           ]
-        ]
+        ],
+        "caption": "**Final Forms**"
       },
       {
         "image": "forms-8.jpg"
@@ -181,8 +315,7 @@
       {
         "image": "forms-25.jpg"
       }
-    ],
-    "footer": "Check out my [Behance](https://www.behance.net/ginaqzhang) for more details on this [Forms Study](https://www.behance.net/gallery/57635799/Form-Study)"
+    ]
   },
   {
     "title": "Waffle Crisps",
@@ -196,6 +329,16 @@
       {
         "image": "waffle-crisps-2.png",
         "caption": "For my second project, I decided that I wanted to make a product that would potentially help reduce the problem. My Waffle Crisps idea came from the intention to reduce the amount of plastic spoons being thrown into the trash in ice cream stores. Even though I did make packaging for it, I believe that Waffle Crisps would be most effective in reducing plastic trash if it were to either be given out or sold in ice cream shops along with the ice cream you order."
+      },
+      {
+        "imageSet": [
+          [
+            "waffle-crisps-process-1.jpg",
+            "waffle-crisps-process-2.png"
+          ]
+        ],
+        "caption": "**Process**\n\nThe first round of prototyping my Waffle Crisps was done in my kitchen with one waffle cone iron. The most difficult part was finding a recipe that not only tasted good and would not break when scooping, but would also be flexible enough to bend as soon as it came off the iron.",
+        "aspectRatio": "30%"
       },
       {
         "image": "waffle-crisps-3.png",
@@ -224,8 +367,7 @@
         "caption": "**Article**\n\nAfter both projects, we had to write [an article](/waffle-crisps.pdf) explaining why we did what we did. We also had design a mock-up of the article, as if it was published in some media source. I decided that Time Magazine was a good choice for my topic because the problem I was tackling is a serious issue, but with a fun twist.",
         "aspectRatio": "63%"
       }
-    ],
-    "footer": "Check out my [Behance](https://www.behance.net/ginaqzhang) for more details on [Waffle Crisps](https://www.behance.net/gallery/62019959/Waffle-Crisps)"
+    ]
   },
   {
     "title": "Modern Violin",
@@ -235,6 +377,10 @@
       {
         "image": "modern-violin-1.png",
         "caption": "This is a fully functioning violin that is made to have a more modern style. The violin is asymmetrical to make it more comfortable for the player’s hand when going up to higher positions. The traditional scroll has been turned into a hook for easy carrying with one finger."
+      },
+      {
+        "image": "modern-violin-process-1.jpg",
+        "aspectRatio": "120%"
       },
       {
         "imageSet": [
@@ -269,8 +415,7 @@
         "image": "modern-violin-10.png",
         "aspectRatio": "50%"
       }
-    ],
-    "footer": "Check out my [Behance](https://www.behance.net/ginaqzhang) for more details on the [Modern Violin](https://www.behance.net/gallery/37699119/Spatial-Final-A-More-Modern-Violin)"
+    ]
   },
   {
     "title": "How Do You Do Your Poo?",
@@ -280,6 +425,42 @@
       {
         "image": "toilet-1.png",
         "caption": "In many countries besides America, many people rely on squatting to facilitate elimination. Although many Americans realize that squatting is healthier, most of them don’t incorporate it into their daily routines. In response to this issue, I designed an ergonomic toilet that introduces the concept of squatting on the toilet in a familiar form."
+      },
+      {
+        "image": "toilet-process-1.png",
+        "caption": "**Research**",
+        "aspectRatio": "90%"
+      },
+      {
+        "image": "toilet-process-2.png",
+        "caption": "**Ideation**",
+        "aspectRatio": "85%"
+      },
+      {
+        "image": "toilet-process-3.jpg",
+        "aspectRatio": "50%"
+      },
+      {
+        "image": "toilet-process-4.png",
+        "caption": "**Final Sketch**",
+        "aspectRatio": "60%"
+      },
+      {
+        "image": "toilet-process-5.jpg",
+        "caption": "**Model Making Process**",
+        "aspectRatio": "55%"
+      },
+      {
+        "image": "toilet-process-6.jpg",
+        "aspectRatio": "55%"
+      },
+      {
+        "image": "toilet-process-7.jpg",
+        "aspectRatio": "55%"
+      },
+      {
+        "image": "toilet-process-8.jpg",
+        "aspectRatio": "55%"
       },
       {
         "imageSet": [
@@ -303,8 +484,7 @@
       {
         "image": "toilet-6.jpg"
       }
-    ],
-    "footer": "Check out my [Behance](https://www.behance.net/ginaqzhang) for more details on [How Do You Do Your Poo?](https://www.behance.net/gallery/57366319/How-do-you-do-your-poo-A-more-ergonomic-toilet)"
+    ]
   },
   {
     "title": "Four Hour Children's Ride-On Challenge",
@@ -314,6 +494,23 @@
       {
         "image": "ride-on-1.jpg",
         "caption": "The goal of the Four Hour Children’s Ride-On Design Challenge was to design a ride-on toy that would either rock or roll in the given time. We worked in randomly assigned groups of three or four, and we had four hours to conceive ideas and also build a working prototype."
+      },
+      {
+        "imageSet": [
+          [
+            "ride-on-process-1.jpg",
+            "ride-on-process-2.jpg"
+          ]
+        ],
+        "caption": "**Process**\n\nOriginally, my group wanted to make a ride-on car that could both rock and roll. One side would be shaped in a way that could rock without rocking too far, and would also have a foot rest. When flipped over, the toy would roll on a set of wheels mounted on the other side. During the course of creating our prototype, we realized that we did not have enough time or material to make the ride-on rock and roll, so with 45 minutes to go, we quickly decided to pivot our focus to making the ride-on just roll.",
+        "aspectRatio": "33%"
+      },
+      {
+        "image": "ride-on-process-3.jpg",
+        "aspectRatio": "60%"
+      },
+      {
+        "image": "ride-on-process-4.jpg"
       },
       {
         "image": "ride-on-2.jpg",
@@ -327,8 +524,7 @@
         "image": "ride-on-4.gif",
         "caption": "In the second video clip, the child sitting on the ride is seen struggling to find a place to put his hands. He first places his hands on the back wheel, but that is unsafe, and is directed to put his hands at the front of the car. That is uncomfortable for him, though, and he continues to struggle to find a place to rest his hands."
       }
-    ],
-    "footer": "Check out my [Behance](https://www.behance.net/ginaqzhang) for more details on the [Four Hour Children's Ride-On Challenge](https://www.behance.net/gallery/61369255/4-Hour-Childrens-Ride-On-Challenge)"
+    ]
   },
   {
     "title": "Dog Carrier for Bikes",
@@ -345,6 +541,20 @@
         "aspectRatio": "50%"
       },
       {
+        "image": "dog-carrier-pattern-layout.png",
+        "caption": "**Pattern Layout**",
+        "aspectRatio": "60%"
+      },
+      {
+        "image": "dog-carrier-process-1.png",
+        "caption": "**Paper Prototyping**",
+        "aspectRatio": "55%"
+      },
+      {
+        "image": "dog-carrier-process-2.png",
+        "aspectRatio": "33%"
+      },
+      {
         "imageSet": [
           [
             "dog-carrier-2.png",
@@ -355,10 +565,10 @@
             "dog-carrier-5.png"
           ]
         ],
+        "caption": "**Final Prototype**",
         "aspectRatio": "100%"
       }
-    ],
-    "footer": "Check out my [Behance](https://www.behance.net/ginaqzhang) for more details on the [Dog Carrier for Bikes](https://www.behance.net/gallery/49360067/Dog-Carrier-for-Bikes-Prototype)"
+    ]
   },
   {
     "title": "Deck",
@@ -367,7 +577,30 @@
     "details": [
       {
         "image": "deck-1.jpg",
-        "caption": "This is a deck that I helped tear down and rebuild when I worked as a contractor's assistant.\n\nI gained experience with hand and construction tools, as we needed to find a lot of creative ways to cut the materials we needed to the right size. Even though rebuilding a deck isn’t a typical design project, it was a valuable experience as I learned a lot about building projects on a large scale, as well as working with customers to meet deadlines."
+        "caption": "A deck that I helped tear down and rebuild when I worked as a contractor's assistant."
+      },
+      {
+        "image": "deck-process-1.jpg",
+        "caption": "**Process**\n\nDuring the tear down process, we had to make sure that the structural integrity of the house wasn’t at risk. Only after reinforcing the deck did we start laying down floor boards.",
+        "aspectRatio": "60%"
+      },
+      {
+        "imageSet": [
+          [
+            "deck-process-2.jpg",
+            "deck-process-3.jpg"
+          ],
+          [
+            "deck-process-4.jpg",
+            "deck-process-5.jpg"
+          ],
+          [
+            { "asset": "deck-process-6.jpg", "width": "67%" },
+            { "asset": "deck-process-7.jpg", "width": "33%" }
+          ]
+        ],
+        "caption": "I also gained experience with hand and construction tools, as we needed to find a lot of creative ways to cut the materials we needed to the right size. Even though rebuilding a deck isn’t a typical design project, it was a valuable experience as I learned a lot about building projects on a large scale, as well as working with customers to meet deadlines.",
+        "aspectRatio": "110%"
       },
       {
         "image": "deck-2.jpg",
@@ -380,6 +613,7 @@
             { "asset": "deck-4.jpg", "width": "33%" }
           ]
         ],
+        "caption": "**Finished Deck**",
         "aspectRatio": "55%"
       },
       {
@@ -390,8 +624,7 @@
           ]
         ]
       }
-    ],
-    "footer": "Check out my [Behance](https://www.behance.net/ginaqzhang) for more details on the [Dog Carrier for Bikes](https://www.behance.net/gallery/62420921/Deck)"
+    ]
   },
   {
     "title": "Miscellaneous",
@@ -401,12 +634,13 @@
     "details": [
       {
         "image": "lock.jpg",
+        "textFirst": true,
         "caption": "This section contains some other, smaller, things I've worked on.\n\n**Small to Large Lock**",
         "aspectRatio": "100%"
       },
       {
         "image": "some-drawings.png",
-        "caption": "Some drawings I did for a workshop on sketching products.",
+        "caption": "**Product Drawings**\n\nSome drawings I did for a workshop on sketching products.",
         "aspectRatio": "150%",
         "imageAlignment": "center -25px",
         "hasBorder": true
@@ -453,7 +687,7 @@
       },
       {
         "image": "elephant-push-pin.jpg",
-        "caption": "**Elephant Push Pin**",
+        "caption": "**Elephant Push Pin**\n\nThis was a group project where we laser cut the form from a CAD model and covered it with nature-inspired paintings.",
         "aspectRatio": "55%"
       }
     ]

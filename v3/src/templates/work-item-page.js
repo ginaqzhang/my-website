@@ -23,9 +23,9 @@ export const query = graphql`
         imageSet,
         video,
         caption,
-        aspectRatio
-      },
-      footer
+        aspectRatio,
+        textFirst
+      }
     },
     allWorkItemsJson {
       edges {

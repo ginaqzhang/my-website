@@ -9,7 +9,7 @@
   },
   "scripts": {
     "build": "gatsby build",
-    "start": "gatsby develop --port 7777 --open"
+    "start": "gatsby develop --port 7777"
   },
   "dependencies": {
     "classnames": "^2.2.5",

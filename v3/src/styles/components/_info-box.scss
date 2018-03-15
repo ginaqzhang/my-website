@@ -15,6 +15,10 @@ $title-spacing: 14px;
 		font-size: 13px;
 		line-height: 150%;
 	}
+
+	strong {
+		font-family: $display-font;
+	}
 }
 
 @media screen and (min-width: $breakpoint) {
